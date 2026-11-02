@@ -45,6 +45,7 @@ h1 .dot{display:inline-block;width:.2em;height:.2em;margin-left:.06em;border-rad
 .role{margin-top:4pt;font-family:"Bricolage Grotesque",Arial,sans-serif;font-weight:700;font-size:12.5pt}
 .contact{margin-top:6pt;color:var(--muted);font-size:8.9pt}
 .contact span{white-space:nowrap}
+.contact a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.7pt;text-underline-offset:1.6pt}
 .contact span+span::before{content:" - ";color:var(--meta)}
 section{margin-top:11pt}
 h2{display:flex;align-items:center;gap:6pt;font-family:"Bricolage Grotesque",Arial,sans-serif;font-weight:700;font-size:11.5pt;line-height:1.1;padding-bottom:4pt;margin-bottom:6pt;border-bottom:.6pt solid var(--line)}
