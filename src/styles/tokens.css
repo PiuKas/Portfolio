@@ -1,0 +1,21 @@
+/* Tokens del design system de andreablancolopez.com.
+   Mismos nombres que el design system en Claude: si cambias un valor aquí, cámbialo también allí. */
+:root {
+  --ab-bg:#fbfbfa; --ab-text:#0e0e0e; --ab-muted:#56564f; --ab-label:#a3a39c;
+  --ab-border:rgba(0,0,0,.1); --ab-border-soft:rgba(0,0,0,.07); --ab-border-subtle:rgba(0,0,0,.08);
+  --ab-border-faint:rgba(0,0,0,.06); --ab-border-strong:rgba(0,0,0,.14); --ab-border-badge:rgba(0,0,0,.16);
+  --ab-ink-soft:#54544f; --ab-ink-body:#3a3a37; --ab-meta:#9a9a93; --ab-num:#bdbdb6; --ab-dim:#c4c4bd;
+  --ab-placeholder:#efefed; --ab-white:#ffffff; --ab-nav-glass:rgba(251,251,250,.86);
+  --ab-dark:#0a0a0a; --ab-dark-text:#f4f4f4; --ab-dark-heading:#ffffff; --ab-dark-muted:#bdbdbd;
+  --ab-dark-label:#7a7a7a; --ab-dark-tag:#dadada; --ab-dark-border:#2a2a2a;
+  --ab-code-bg:#141414; --ab-code-border:#262626; --ab-code-text:#cfcfcf; --ab-code-key:#ffffff;
+  --ab-code-string:#b6b6b6; --ab-code-comment:#777777; --ab-code-muted:#5a5a5a;
+  --ab-accent:#f2541b; --ab-accent-ink:#b83e10; --ab-accent-soft:rgba(242,84,27,.22); --ab-accent-wash:#fdf1eb;
+  --ab-dot-red:#ff5f57; --ab-dot-yellow:#febc2e; --ab-dot-green:#28c840; --ab-status:var(--ab-accent);
+  --font-head:"Bricolage Grotesque Variable","Bricolage Grotesque", "Hanken Grotesk", system-ui, sans-serif;
+  --font-body:"Hanken Grotesk", system-ui, sans-serif;
+  --font-mono:"Hanken Grotesk", system-ui, sans-serif; /* labels: misma familia que el texto */
+  --font-code:"JetBrains Mono", ui-monospace, Menlo, monospace; /* solo código */
+  --ab-max:1180px; --ab-pad:clamp(20px,5vw,40px);
+  color-scheme: light;
+}

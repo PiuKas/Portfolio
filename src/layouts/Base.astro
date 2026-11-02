@@ -1,0 +1,69 @@
+---
+/* Plantilla común de todas las páginas: <head>, navegación, pie y scripts. */
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+/* Fuentes alojadas en la propia web (más rápido y sin enviar datos a Google). */
+import '@fontsource-variable/bricolage-grotesque/opsz.css';
+import '@fontsource/hanken-grotesk/400.css';
+import '@fontsource/hanken-grotesk/500.css';
+import '@fontsource/hanken-grotesk/600.css';
+import '@fontsource/hanken-grotesk/700.css';
+import '@fontsource/jetbrains-mono/400.css';
+import '@fontsource/jetbrains-mono/500.css';
+import '../styles/tokens.css';
+import '../styles/site.css';
+
+interface Props {
+  title: string;
+  description: string;
+  /* La home lleva la intro y a Pixel; las páginas de proyecto no. */
+  home?: boolean;
+  image?: string;
+}
+
+const { title, description, home = false, image = '/img/og-image.png' } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL(image, Astro.site);
+---
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>{title}</title>
+  <meta name="description" content={description}>
+  <link rel="canonical" href={canonical}>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/img/site-icon-512.png">
+  <meta name="theme-color" content="#fbfbfa">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="Andrea Blanco">
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:url" content={canonical}>
+  <meta property="og:image" content={ogImage}>
+  <meta name="twitter:card" content="summary_large_image">
+
+
+  <!-- Decide antes de pintar si se reproduce la intro (solo home, una vez por sesión, sin "reducir movimiento"). -->
+  <script is:inline define:vars={{ home }}>
+    (function(){
+      var r=document.documentElement, play=false;
+      try{ play = home && !sessionStorage.getItem('ab-intro') && !matchMedia('(prefers-reduced-motion: reduce)').matches; }catch(e){}
+      r.classList.add(play ? 'is-loading' : 'is-ready');
+    })();
+  </script>
+  <script is:inline src="/js/i18n.js" defer></script>
+  <script is:inline src="/js/pixel-engine.js" defer></script>
+  <script is:inline src="/js/site.js" defer></script>
+</head>
+<body>
+  <slot name="before-nav" />
+  <Nav />
+  <slot />
+  <Footer />
+  <slot name="after-footer" />
+</body>
+</html>

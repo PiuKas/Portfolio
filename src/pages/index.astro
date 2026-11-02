@@ -1,0 +1,29 @@
+---
+import Base from '../layouts/Base.astro';
+import Intro from '../components/Intro.astro';
+import Pixel from '../components/Pixel.astro';
+import Hero from '../components/home/Hero.astro';
+import Proyectos from '../components/home/Proyectos.astro';
+import Experiencia from '../components/home/Experiencia.astro';
+import QueHago from '../components/home/QueHago.astro';
+import Proceso from '../components/home/Proceso.astro';
+import IA from '../components/home/IA.astro';
+import Sobre from '../components/home/Sobre.astro';
+---
+<Base
+  home
+  title="Andrea Blanco - Product Designer"
+  description="Product Designer con más de 4 años de experiencia. Diseño producto de principio a fin: del problema al design system y a la implementación con desarrollo."
+>
+  <Intro slot="before-nav" />
+  <main id="top">
+    <Hero />
+    <Proyectos />
+    <Experiencia />
+    <QueHago />
+    <Proceso />
+    <IA />
+    <Sobre />
+  </main>
+  <Pixel slot="after-footer" />
+</Base>

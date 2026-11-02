@@ -1,0 +1,171 @@
+---
+import Base from '../../layouts/Base.astro';
+/* Inter solo se usa en las piezas del design system del entrenador */
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/600.css';
+import '@fontsource/inter/700.css';
+import '@fontsource/inter-tight/800.css';
+import '@fontsource/inter-tight/900.css';
+import CombatCover from '../../components/covers/CombatCover.astro';
+---
+<Base
+  title="Web para un entrenador de deportes de combate - Andrea Blanco"
+  description="Una landing para un preparador físico de deportes de combate. Tenía que transmitir credibilidad desde el primer segundo y llevar a cada visitante a escribirle por WhatsApp."
+  image="/img/proyectos/combate-portada-escritorio.jpg"
+>
+  <main class="ab-cs is-enter">
+    <div class="ab-container">
+      <a class="ab-cs__back" href="/#proyectos">← Todos los proyectos</a>
+
+      <header class="ab-cs__head">
+        <p class="ab-cs__eyebrow">Proyecto propio - Diseño web - 2026</p>
+        <h1 class="ab-cs__title ab-cs__title--long">Página web para un entrenador personal especializado en deportes de combate<span class="ab-dot">.</span></h1>
+        <p class="ab-cs__lede">Una landing para un preparador físico de deportes de combate. Tenía que transmitir credibilidad desde el primer segundo y llevar a cada visitante a escribirle por WhatsApp.</p>
+      </header>
+
+      <div class="ab-cs__cover"><CombatCover /></div>
+
+      <dl class="ab-cs__meta">
+        <div><dt>Mi rol</dt><dd>Dirección visual, contenido, diseño e implementación</dd></div>
+        <div><dt>Herramientas</dt><dd>Claude Code, WordPress</dd></div>
+        <div><dt>Formato</dt><dd>Landing responsive, mobile first</dd></div>
+        <div><dt>Estado</dt><dd class="ab-case__status">Demo terminada</dd></div>
+      </dl>
+
+      <div class="ab-case__cards ab-cs__cards">
+        <div class="ab-case__card"><h4>El reto</h4><p>Un preparador sin web, que lo gestiona todo por WhatsApp, necesitaba un sitio que inspirara confianza y convirtiera visitas en conversaciones.</p></div>
+        <div class="ab-case__card ab-case__card--do"><h4>Qué hice</h4><p>La dirección visual, un design system pequeño, la estructura de la página y su implementación en WordPress, en escritorio y móvil.</p></div>
+        <div class="ab-case__card"><h4>Resultado</h4><p>Una demo navegable para enseñarle la idea. Si sigue adelante, podrá editarla sin depender de mí.</p></div>
+      </div>
+
+      <div class="ab-cs__layout">
+        <nav class="ab-cs__toc" aria-label="Capítulos">
+          <ol>
+            <li><button type="button" data-go="cb-c1"><span>01</span> El encargo</button></li>
+            <li><button type="button" data-go="cb-c2"><span>02</span> Dirección visual</button></li>
+            <li><button type="button" data-go="cb-c3"><span>03</span> Design system</button></li>
+            <li><button type="button" data-go="cb-c4"><span>04</span> Estructura</button></li>
+            <li><button type="button" data-go="cb-c5"><span>05</span> Mobile first</button></li>
+            <li><button type="button" data-go="cb-c6"><span>06</span> Construcción</button></li>
+            <li><button type="button" data-go="cb-c7"><span>07</span> De demo a web real</button></li>
+          </ol>
+        </nav>
+
+        <div class="ab-cs__chapters">
+          <section class="ab-cs__ch" id="cb-c1">
+            <p class="ab-cs__chnum">01 - El encargo</p>
+            <h2>Una web para alguien que vive en WhatsApp</h2>
+            <p>Mi amigo es preparador físico y competidor de karate. No tenía web y gestiona a todos sus clientes por WhatsApp. Decidí diseñarle una demo por mi cuenta para enseñarle cómo podría ser.</p>
+            <p>Acoté el alcance desde el principio: una landing, sin pagos ni paneles de gestión. Todo el recorrido termina en un mismo sitio, una conversación por WhatsApp.</p>
+          </section>
+
+          <section class="ab-cs__ch" id="cb-c2">
+            <p class="ab-cs__chnum">02 - Dirección visual</p>
+            <h2>Energía y contraste</h2>
+            <p>Quería una web oscura, directa y con un solo color que llamara la atención.</p>
+            <ul class="ab-cs__list">
+              <li><strong>Un fondo oscuro</strong>, para que las fotos de competición reales sean las protagonistas.</li>
+              <li><strong>Un único rosa</strong> para todo lo que se puede pulsar y para la palabra clave del titular.</li>
+              <li><strong>Titulares en mayúsculas muy pesadas</strong>, con el interlineado apretado: transmiten fuerza.</li>
+              <li><strong>Una sección clara</strong> para el método, que da respiro y separa el "qué" del "quién".</li>
+            </ul>
+          </section>
+
+          <section class="ab-cs__ch" id="cb-c3">
+            <p class="ab-cs__chnum">03 - Design system</p>
+            <h2>Pocas piezas, muy consistentes</h2>
+            <p>Lo reduje a lo mínimo para que la web sea fácil de mantener: seis colores, tres estilos de texto y cuatro componentes.</p>
+
+            <div class="acp-ds">
+              <p class="acp-ds__h">Color</p>
+              <div class="acp-sw">
+                <div><i style="background:#0a0a0a"></i><b>Oscuro</b><code>#0A0A0A</code><span>Fondo principal</span></div>
+                <div><i style="background:#141414"></i><b>Oscuro secundario</b><code>#141414</code><span>Bandas y cifras</span></div>
+                <div><i style="background:#e82c5f"></i><b>Rosa</b><code>#E82C5F</code><span>Acción y énfasis</span></div>
+                <div><i style="background:#f5f4f1"></i><b>Papel</b><code>#F5F4F1</code><span>Sección del método</span></div>
+                <div><i style="background:#ffffff"></i><b>Blanco</b><code>#FFFFFF</code><span>Titulares y tarjetas</span></div>
+                <div><i style="background:#9a9a9a"></i><b>Gris</b><code>#9A9A9A</code><span>Texto secundario</span></div>
+              </div>
+
+              <p class="acp-ds__h">Tipografía</p>
+              <div class="acp-type">
+                <div class="acp-type__row"><span class="acp-type__meta">Display - 800 - Mayúsculas</span><p class="acp-display">Preparación <em>online</em></p></div>
+                <div class="acp-type__row"><span class="acp-type__meta">Etiqueta - 700 - Tracking 0,18em</span><p class="acp-eyebrow">Únete ahora</p></div>
+                <div class="acp-type__row"><span class="acp-type__meta">Texto - 400 - 16 px</span><p class="acp-body">Un sistema de entrenamiento estructurado, adaptado a tu realidad como luchador.</p></div>
+              </div>
+
+              <p class="acp-ds__h">Componentes</p>
+              <div class="acp-comp">
+                <div class="acp-stage acp-stage--dark">
+                  <span class="acp-btn">Empieza tu transformación</span>
+                  <ul class="acp-checks"><li>Graduado en Ciencias de la Actividad Física y el Deporte</li><li>Competidor en activo</li></ul>
+                  <div class="acp-stat"><b>+10</b><span>Años compitiendo</span></div>
+                </div>
+                <div class="acp-stage acp-stage--light">
+                  <div class="acp-card"><span class="acp-card__ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 4h6v3H9zM6 6h3M15 6h3v14H6V6" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></svg></span><p class="acp-card__t">Test inicial</p><p class="acp-card__d">Evaluaciones periódicas para medir tu evolución.</p></div>
+                </div>
+              </div>
+              <p class="acp-ds__note">Reconstruidos a partir del diseño final. Cada componente usa solo los tokens de arriba.</p>
+            </div>
+          </section>
+
+          <section class="ab-cs__ch" id="cb-c4">
+            <p class="ab-cs__chnum">04 - Estructura</p>
+            <h2>Una página pensada para convertir</h2>
+            <p>El orden responde a las dudas que tiene alguien antes de escribir a un entrenador que no conoce.</p>
+            <ol class="acp-flow">
+              <li><b>Promesa</b><span>Qué ofrece y para quién, en una línea.</span></li>
+              <li><b>Método</b><span>Cuatro pasos que explican cómo se trabaja.</span></li>
+              <li><b>Credibilidad</b><span>Quién es, su formación y su trayectoria.</span></li>
+              <li><b>Cifras</b><span>Tres datos que se leen de un vistazo.</span></li>
+              <li><b>Llamada final</b><span>Una sola acción: hablar por WhatsApp.</span></li>
+            </ol>
+            <figure class="acp-browser">
+              <div class="acp-browser__bar"><i></i><i></i><i></i><span>Escritorio - página completa</span></div>
+              <div class="acp-browser__scroll"><img src="/img/proyectos/combate-escritorio.jpg" alt="Página completa en escritorio" width="1100" height="2215" loading="lazy"></div>
+            </figure>
+          </section>
+
+          <section class="ab-cs__ch" id="cb-c5">
+            <p class="ab-cs__chnum">05 - Mobile first</p>
+            <h2>Pensada para el móvil</h2>
+            <p>La mayoría de sus clientes llegarán desde Instagram, en el móvil. Por eso diseñé primero esa versión: los titulares se ajustan sin perder fuerza, las tarjetas del método se apilan y el botón principal ocupa todo el ancho, al alcance del pulgar.</p>
+            <div class="acp-mobile">
+              <div class="acp-phone"><div class="acp-phone__scroll"><img src="/img/proyectos/combate-movil.jpg" alt="Página completa en móvil" width="390" height="3998" loading="lazy"></div></div>
+              <ul class="ab-cs__list">
+                <li><strong>Un botón por pantalla</strong>, siempre en el mismo rosa.</li>
+                <li><strong>Menú hamburguesa</strong> para no robar espacio al titular.</li>
+                <li><strong>Las cifras en vertical</strong>, una debajo de otra, para leerlas al hacer scroll.</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="ab-cs__ch" id="cb-c6">
+            <p class="ab-cs__chnum">06 - Construcción</p>
+            <h2>Que él pueda editarla</h2>
+            <p>La monté en WordPress para que pueda cambiar textos y fotos sin depender de mí. La desarrollé en mi propio alojamiento con contenido de relleno. Si le convence, la migro a su dominio y su hosting, que contratará él porque la web es suya.</p>
+            <p>Con Claude Code aceleré la parte de implementación. Las decisiones de diseño, el contenido y el alcance fueron míos.</p>
+          </section>
+
+          <section class="ab-cs__ch" id="cb-c7">
+            <p class="ab-cs__chnum">07 - De demo a web real</p>
+            <h2>Lo que haría si sigue adelante</h2>
+            <p>La demo sirve para enseñarle la idea y que pueda imaginar su web. Para convertirla en la definitiva, estos serían los siguientes pasos:</p>
+            <ul class="ab-cs__list">
+              <li><strong>Contenido real:</strong> escribir los textos con él y usar sus propias fotos y datos.</li>
+              <li><strong>Tarifas y ubicación:</strong> añadir las dos secciones del encargo que dejé fuera de la demo.</li>
+              <li><strong>Contraste:</strong> subir los grises sobre fondo oscuro hasta cumplir WCAG AA.</li>
+              <li><strong>Cifras comparables:</strong> que los tres datos se lean igual, con números reales.</li>
+              <li><strong>WhatsApp de verdad:</strong> conectar todos los botones a su número y medir cuántas conversaciones llegan.</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+
+      <a class="ab-cs__next" href="/proyectos/pixel">
+        <span class="ab-cs__next-l">Siguiente proyecto</span>
+        <span class="ab-cs__next-t">Pixel <span aria-hidden="true">→</span></span>
+      </a>
+    </div>
+  </main>
+</Base>
