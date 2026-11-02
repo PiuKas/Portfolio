@@ -1,3 +1,7 @@
+---
+import LangSwitch from './LangSwitch.astro';
+import { CV } from '../i18n/routes.mjs';
+---
 <header class="ab-nav">
   <div class="ab-container ab-nav__inner">
     <a class="ab-nav__logo" href="/" aria-label="Andrea Blanco, inicio" id="ab-logo">AB<span>.</span></a>
@@ -8,8 +12,8 @@
       <a href="/#ia">IA</a>
       <a href="/#contacto">Contacto</a>
       <span class="ab-nav__sep"></span>
-      <div class="ab-lang" role="group" aria-label="Idioma"><button type="button" data-lang="es" aria-pressed="true" lang="es">ES</button><button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button></div>
-      <a class="ab-nav__cta" href="/#sobre-mi">CV ↓</a>
+      <LangSwitch />
+      <a class="ab-nav__cta" href={CV.es} download>CV ↓</a>
     </nav>
     <button class="ab-nav__burger" id="ab-burger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="ab-panel"><span aria-hidden="true">≡</span></button>
   </div>
@@ -19,7 +23,7 @@
     <a href="/#que-hago">Qué hago</a>
     <a href="/#ia">IA</a>
     <a href="/#contacto">Contacto</a>
-    <div class="ab-lang ab-lang--panel" role="group" aria-label="Idioma"><button type="button" data-lang="es" aria-pressed="true" lang="es">ES</button><button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button></div>
-    <a class="ab-nav__panel-cta" href="/#sobre-mi">Descargar CV ↓</a>
+    <LangSwitch panel />
+    <a class="ab-nav__panel-cta" href={CV.es} download>Descargar CV ↓</a>
   </div>
 </header>

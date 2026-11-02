@@ -26,13 +26,36 @@ src/
     proyectos/        Una página por caso de estudio
 public/
   img/                Fotos y capturas
+  cv/                 CV en PDF, en castellano e inglés (los genera cv/cv.py)
   js/
-    i18n.js           Textos en inglés y selector ES / EN
+    i18n.js           Traduce en inglés los textos que escribe el JavaScript
     pixel-engine.js   Motor de sprites de Pixel
     site.js           Intro, cursor, timelines, lienzo de proyectos, Pixel
+src/i18n/
+  en.json             Diccionario castellano → inglés
+  routes.mjs          Rutas de cada página en los dos idiomas, títulos y descripciones en inglés
+scripts/
+  build-en.mjs        Genera las páginas /en/ y el sitemap después del build
+cv/
+  content.py          Texto del CV en los dos idiomas
+  cv.py               Genera los PDF
 ```
 
-Para cambiar un texto, se edita el archivo de su sección en `src/components/home/` o la página en `src/pages/proyectos/`. Si existe en inglés, hay que cambiarlo también en `public/js/i18n.js`.
+## Idiomas
+
+La web se escribe en castellano. Al compilar, `scripts/build-en.mjs` genera la versión inglesa en `/en/` con el diccionario `src/i18n/en.json`, y añade `hreflang`, canonical y un `sitemap.xml` con las dos versiones. Si cambias un texto en castellano, añade su traducción al diccionario: el build avisa de los textos que se han quedado sin traducir.
+
+## CV
+
+El texto está en `cv/content.py`. Para regenerar los PDF de `public/cv/`:
+
+```
+python3 cv/cv.py
+```
+
+Está pensado para que lo lean bien los filtros automáticos (ATS): una columna, encabezados estándar, todo en texto seleccionable y sin espaciado entre letras en los títulos.
+
+Para cambiar un texto, se edita el archivo de su sección en `src/components/home/` o la página en `src/pages/proyectos/`.
 
 ## Trabajar en local
 
@@ -42,7 +65,3 @@ npm run dev      # http://localhost:4321
 npm run build    # genera la web en dist/
 ```
 
-## Pendiente
-
-- CV en PDF: los botones "CV" llevan por ahora a la sección Sobre mí.
-- Versión en inglés con páginas propias en `/en/`. Ahora se traduce en el navegador y Google no la indexa.

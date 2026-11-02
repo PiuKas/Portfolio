@@ -1,0 +1,12 @@
+---
+/* Selector de idioma: enlaza a la misma página en el otro idioma.
+   En las páginas /en/ el script de build mueve aria-current al enlace EN. */
+import { alternates } from '../i18n/routes.mjs';
+interface Props { panel?: boolean }
+const { panel = false } = Astro.props;
+const alt = alternates(Astro.url.pathname);
+---
+<div class:list={["ab-lang", { "ab-lang--panel": panel }]} role="group" aria-label="Idioma">
+  <a href={alt.es} hreflang="es" lang="es" aria-current="true">ES</a>
+  <a href={alt.en} hreflang="en" lang="en">EN</a>
+</div>

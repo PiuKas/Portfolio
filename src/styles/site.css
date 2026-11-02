@@ -893,3 +893,13 @@ canvas[data-sketch],canvas[data-pxv],canvas[data-pxstate],.ab-pxcover__cv,.ab-fr
   .ab-ba__tabs button{flex:1;padding:8px 6px;font-size:13px}
   .ab-ba__tabs .l{display:none}.ab-ba__tabs .s{display:inline}
 }
+
+/* Selector de idioma con enlaces (una página por idioma) */
+.ab-lang a{font-size:12.5px;font-weight:600;letter-spacing:.06em;line-height:1.2;color:var(--ab-meta);text-decoration:none;border-radius:999px;padding:5px 10px;transition:color .2s,background .2s}
+.ab-lang a:hover{color:var(--ab-accent-ink)}
+.ab-lang a[aria-current="true"]{background:var(--ab-text);color:var(--ab-white)}
+.ab-lang--panel a{font-size:14px;padding:7px 14px;border-bottom:0!important}
+.ab-nav__panel .ab-lang a{color:var(--ab-meta)}
+.ab-nav__panel .ab-lang a[aria-current="true"]{color:var(--ab-white)}
+#projects,#experience,#what-i-do,#process,#ai,#about{scroll-margin-top:96px}
+#contact{scroll-margin-top:120px}

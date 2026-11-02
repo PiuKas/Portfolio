@@ -5,16 +5,18 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/build-en.mjs",
     "preview": "astro preview"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.7.4",
     "@fontsource-variable/bricolage-grotesque": "^5.3.0",
     "@fontsource/hanken-grotesk": "^5.3.0",
     "@fontsource/inter": "^5.3.0",
     "@fontsource/inter-tight": "^5.3.0",
     "@fontsource/jetbrains-mono": "^5.3.0",
     "astro": "^5.18.2"
+  },
+  "devDependencies": {
+    "linkedom": "^0.18.15"
   }
 }

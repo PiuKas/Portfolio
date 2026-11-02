@@ -63,7 +63,7 @@
     dev:'Define el problema con Producto, prototipa para validar antes de comprometer horas de desarrollo y acompaña la implementación en Scrum. Habla el idioma de los dos lados.',
     ai:'Para quitarse trabajo mecánico: prototipos HTML que se pueden probar y un skill propio que pasa de Figma a WordPress. Las decisiones de diseño las toma ella.',
     a11y:'Para Andrea es el pilar del diseño: la tiene en cuenta desde el primer boceto, no al final. Auditó el sistema de color componente a componente con criterios WCAG y rediseñó los formularios con etiquetas claras y foco visible. Un diseño que no puede usar todo el mundo está sin terminar.',
-    next:'Escríbele a <a href="/#contacto">andreapwyt@gmail.com</a> o <a href="/#sobre-mi">descarga su CV</a>. También la encuentras en LinkedIn, en el pie de página.'
+    next:'Escríbele a <a href="/#contacto">andreapwyt@gmail.com</a> o <a href="/cv/Andrea-Blanco-Lopez-CV-ES.pdf" download>descarga su CV</a>. También la encuentras en LinkedIn, en el pie de página.'
   };
   function pulse(c,ms){pal.classList.remove(c);void pal.offsetWidth;pal.classList.add(c);setTimeout(function(){pal.classList.remove(c)},ms)}
   function showCard(){pal.classList.add('has-card');btn.setAttribute('aria-expanded','true')}
