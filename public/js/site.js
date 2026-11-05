@@ -1,3 +1,17 @@
+/* ===== ANCLAS DE LA WEB ANTERIOR =====
+   Los enlaces viejos usaban #ab-experiencia, #ab-skills… Si el ancla no existe, se lleva a la sección nueva. */
+(function(){
+  function fix(){
+  var h=location.hash.slice(1); if(!h||document.getElementById(h))return;
+  var OLD={'ab-proyectos':['proyectos','projects'],'ab-experiencia':['experiencia','experience'],'ab-skills':['que-hago','what-i-do'],'ab-proceso':['proceso','process'],'ab-ia':['ia','ai'],'ab-sobre':['sobre-mi','about'],'ab-contacto':['contacto','contact']};
+  var to=OLD[h]; if(!to)return;
+  var id=document.getElementById(to[0])?to[0]:to[1], el=document.getElementById(id); if(!el)return;
+  try{history.replaceState(null,'','#'+id);}catch(e){}
+  el.scrollIntoView();
+  }
+  fix(); window.addEventListener('hashchange',fix);
+})();
+
 /* Interacciones de la web. Cada bloque es independiente y no hace nada si su sección no está en la página. */
 
 /* ===== INTRO: solo en la home y una vez por sesión =====

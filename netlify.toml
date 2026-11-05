@@ -1,0 +1,36 @@
+# Despliegue en Netlify. Cada push a main publica la web.
+
+[build]
+  command = "npm run build"   # astro build + versión inglesa (/en/) y sitemap
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# CV de la web antigua (WordPress). El enlace puede estar en LinkedIn o en candidaturas ya enviadas.
+[[redirects]]
+  from = "/wp-content/uploads/CV_Andrea_Blanco_Lopez_ES.pdf"
+  to = "/cv/Andrea-Blanco-Lopez-CV-ES.pdf"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/CV_Andrea_Blanco_Lopez_EN.pdf"
+  to = "/cv/Andrea-Blanco-Lopez-CV-EN.pdf"
+  status = 301
+
+# Cualquier otra ruta de WordPress lleva a la home en vez de a un 404
+[[redirects]]
+  from = "/wp-content/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/feed/*"
+  to = "/"
+  status = 301
+
+# Archivos con hash en el nombre (CSS y fuentes): no cambian nunca, se pueden guardar en caché un año
+[[headers]]
+  for = "/_astro/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

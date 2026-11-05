@@ -20,9 +20,11 @@ interface Props {
   /* La home lleva la intro y a Pixel; las páginas de proyecto no. */
   home?: boolean;
   image?: string;
+  /* Páginas que no deben aparecer en buscadores (404): sin canonical ni hreflang */
+  noindex?: boolean;
 }
 
-const { title, description, home = false, image = '/img/og-image.png' } = Astro.props;
+const { title, description, home = false, image = '/img/og-image.png', noindex = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image, Astro.site);
 const alt = alternates(Astro.url.pathname);
@@ -34,10 +36,12 @@ const alt = alternates(Astro.url.pathname);
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <title>{title}</title>
   <meta name="description" content={description}>
+  {noindex ? <meta name="robots" content="noindex"> : <>
   <link rel="canonical" href={canonical}>
   <link rel="alternate" hreflang="es" href={new URL(alt.es, Astro.site)}>
   <link rel="alternate" hreflang="en" href={new URL(alt.en, Astro.site)}>
   <link rel="alternate" hreflang="x-default" href={new URL(alt.es, Astro.site)}>
+  </>}
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/img/site-icon-512.png">
   <meta name="theme-color" content="#fbfbfa">

@@ -65,3 +65,9 @@ npm run dev      # http://localhost:4321
 npm run build    # genera la web en dist/
 ```
 
+
+## Despliegue
+
+La web se publica en Netlify desde la rama `main`: cada push compila y publica sola. La configuración está en `netlify.toml` (comando de build, carpeta `dist/`, redirecciones del CV de la web antigua en WordPress y caché de las fuentes).
+
+Los enlaces viejos con anclas `#ab-…` (por ejemplo `#ab-experiencia`) se reconducen a la sección nueva desde `public/js/site.js`. Las rutas que no existen muestran `src/pages/404.astro`, que no se indexa.
