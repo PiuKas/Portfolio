@@ -89,6 +89,13 @@
   }
   window.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(checkDark)}},{passive:true});
   window.addEventListener('resize',checkDark);
+  /* En móvil, el saludo de Pixel no tapa los botones del hero: si vuelven a verse, la burbuja se recoge (Pixel se queda) */
+  var heroCtas=document.querySelector('.ab-hero__ctas');
+  if(heroCtas&&'IntersectionObserver' in window){
+    new IntersectionObserver(function(es){
+      if(es[0].isIntersecting&&window.innerWidth<=768&&pal.classList.contains('has-card')&&!pal.classList.contains('is-open'))closeCard();
+    }).observe(heroCtas);
+  }
   /* Ocultar a Pixel (botón visible en móvil) */
   document.getElementById('ab-pal-hide').addEventListener('click',function(){hidden=true;closeCard();pal.classList.remove('is-in');});
   /* aparece en cuanto el hero sale de pantalla */

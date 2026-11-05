@@ -176,11 +176,13 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--ab-text);outline-of
 .ab-hero__avatar img{display:block;width:100%;height:100%;object-fit:cover}
 
 /* FOOTER */
-.ab-footer{border-top:1px solid var(--ab-border-soft);padding-block:28px}
+.ab-footer{border-top:1px solid var(--ab-border-soft);padding-block:16px}
 .ab-footer__inner{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
 .ab-footer p{font-family:var(--font-mono);font-size:12px;color:var(--ab-meta);margin:0;letter-spacing:.04em}
-.ab-footer nav{display:flex;gap:24px}
-.ab-footer a{font-size:14px;color:var(--ab-meta);text-decoration:none}
+.ab-footer nav{display:flex;gap:24px;flex-wrap:wrap}
+/* En móvil Pixel queda fijo abajo a la derecha: hueco bajo el pie para que no tape los enlaces */
+@media (max-width:768px){body:has(.ab-pal) .ab-footer{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}}
+.ab-footer a{font-size:14px;color:var(--ab-meta);text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
 
 /* ACCENT */
 .ab-num-accent{color:var(--ab-accent-ink)}
@@ -301,7 +303,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--ab-text);outline-of
 /* TIPOGRAFÍA DE LABELS (sin mono) */
 .ab-section-label,.ab-hero__eyebrow,.ab-ia__eyebrow,.ab-divider__label,.ab-case__eyebrow,.ab-case__meta dt,.ab-case__card h4,.ab-sobre__eyebrow,.ab-intro__role,.ab-intro__skip,.ab-pal__more{letter-spacing:.08em;font-weight:600}
 .ab-section-label,.ab-sobre__eyebrow{font-size:12.5px}
-.ab-hero__eyebrow{font-size:13px;letter-spacing:.1em;font-weight:600}
+.ab-hero__eyebrow{font-size:13px;letter-spacing:.1em;font-weight:600;text-wrap:balance}
 .ab-divider__sub,.ab-live__go,.ab-experiencia__year,.ab-skills__num,.ab-skills__badge{font-weight:500}
 .ab-experiencia__year{font-size:14px}
 .ab-skills__num{font-size:16px;font-weight:600}
@@ -574,7 +576,7 @@ a:focus-visible,button:focus-visible{outline-color:var(--ab-accent)}
    Estructura común para todos los proyectos:
    volver · cabecera · portada · ficha · reto/qué hice/resultado · capítulos con índice · siguiente proyecto */
 .ab-cs{padding-block:clamp(36px,6vw,64px) clamp(60px,8vw,96px)}
-.ab-cs__back{display:inline-flex;gap:8px;font-size:14px;font-weight:600;color:var(--ab-muted);text-decoration:none;margin-bottom:clamp(28px,4vw,44px)}
+.ab-cs__back{display:inline-flex;align-items:center;min-height:44px;gap:8px;font-size:14px;font-weight:600;color:var(--ab-muted);text-decoration:none;margin-bottom:clamp(28px,4vw,44px)}
 .ab-cs__back:hover{color:var(--ab-accent-ink)}
 .ab-cs__head{max-width:820px}
 .ab-cs__eyebrow{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ab-label)}
@@ -716,6 +718,24 @@ canvas[data-sketch],canvas[data-pxv],canvas[data-pxstate],.ab-pxcover__cv,.ab-fr
 .ab-pfcmp td:nth-child(3){color:var(--ab-text);font-weight:500}
 .ab-pfcmp thead th:last-child{color:var(--ab-accent-ink)}
 @media (max-width:760px){.ab-pfflow{grid-template-columns:1fr 1fr}.ab-pfflow li::after{display:none}}
+/* Tabla "Antes y ahora" en móvil: cada fila pasa a ser una tarjeta con "Antes" y "Ahora" apilados */
+@media (max-width:600px){
+  .ab-tbl{overflow:visible}
+  .ab-pfcmp{min-width:0}
+  .ab-pfcmp thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+  .ab-pfcmp,.ab-pfcmp tbody,.ab-pfcmp tr,.ab-pfcmp th,.ab-pfcmp td{display:block}
+  .ab-pfcmp tr{padding:14px 0;border-top:1px solid var(--ab-border)}
+  .ab-pfcmp tbody tr:last-child{border-bottom:1px solid var(--ab-border)}
+  .ab-pfcmp th,.ab-pfcmp td{border-top:0;padding:0}
+  .ab-pfcmp tbody th{white-space:normal;margin-bottom:8px}
+  .ab-pfcmp td{display:grid;grid-template-columns:76px minmax(0,1fr);gap:12px;line-height:1.45}
+  .ab-pfcmp td+td{margin-top:6px}
+  .ab-pfcmp td::before{font-size:11.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding-top:2px}
+  .ab-pfcmp td:nth-child(2)::before{content:"Antes";color:var(--ab-label)}
+  .ab-pfcmp td:nth-child(3)::before{content:"Ahora";color:var(--ab-accent-ink)}
+  :lang(en) .ab-pfcmp td:nth-child(2)::before{content:"Before"}
+  :lang(en) .ab-pfcmp td:nth-child(3)::before{content:"Now"}
+}
 
 /* ===== Alfredo Combat Performance: portada y design system del proyecto (prefijo acp-) ===== */
 .acp-cover{container-type:inline-size;position:relative;width:100%;height:100%;background:#fff;overflow:hidden}
