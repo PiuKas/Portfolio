@@ -73,7 +73,7 @@
   function greet(){
     if(greeted||hidden||!appeared)return;
     if(pal.classList.contains('has-card'))return;
-    greeted=true; msg.textContent=HELLO; ABL.apply(msg); showCard(); if(!reduce){pulse('is-hello',900); st.eyes='happy'; rd(); setTimeout(function(){st.eyes='open';rd()},1000);}
+    greeted=true; msg.textContent=HELLO; ABL.apply(msg); showCard(); setTimeout(guard,60); if(!reduce){pulse('is-hello',900); st.eyes='happy'; rd(); setTimeout(function(){st.eyes='open';rd()},1000);}
   }
   function appear(){
     if(appeared||hidden)return; appeared=true; pal.classList.add('is-in'); if(!reduce)setTimeout(function(){pulse('is-hop',420)},500);
@@ -89,12 +89,23 @@
   }
   window.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(checkDark)}},{passive:true});
   window.addEventListener('resize',checkDark);
-  /* En móvil, el saludo de Pixel no tapa los botones del hero: si vuelven a verse, la burbuja se recoge (Pixel se queda) */
-  var heroCtas=document.querySelector('.ab-hero__ctas');
-  if(heroCtas&&'IntersectionObserver' in window){
-    new IntersectionObserver(function(es){
-      if(es[0].isIntersecting&&window.innerWidth<=768&&pal.classList.contains('has-card')&&!pal.classList.contains('is-open'))closeCard();
-    }).observe(heroCtas);
+  /* Pixel nunca baja de la línea del pie: cuando el pie entra en pantalla, sube con él y deja libres los enlaces */
+  var foot=document.querySelector('.ab-footer'), lifting=false;
+  function lift(){
+    lifting=false; if(!foot)return;
+    var over=Math.max(0,window.innerHeight-foot.getBoundingClientRect().top);
+    pal.style.setProperty('--pal-lift',Math.round(over)+'px');
+    guard();
+  }
+  function onLift(){if(!lifting){lifting=true;requestAnimationFrame(lift)}}
+  window.addEventListener('scroll',onLift,{passive:true}); window.addEventListener('resize',onLift); lift();
+  /* El saludo de Pixel nunca tapa los botones principales (hero y contacto): si se superpone a ellos, la burbuja se recoge y Pixel se queda */
+  var ctas=[].slice.call(document.querySelectorAll('.ab-hero__ctas,.ab-contacto__ctas')), card=pal.querySelector('.ab-pal__card');
+  function hits(a,b){return !(a.right<b.left||a.left>b.right||a.bottom<b.top||a.top>b.bottom)}
+  function guard(){
+    if(!card||!pal.classList.contains('has-card')||pal.classList.contains('is-open'))return;
+    var r=card.getBoundingClientRect();
+    if(ctas.some(function(c){return hits(r,c.getBoundingClientRect())}))closeCard();
   }
   /* Ocultar a Pixel (botón visible en móvil) */
   document.getElementById('ab-pal-hide').addEventListener('click',function(){hidden=true;closeCard();pal.classList.remove('is-in');});
