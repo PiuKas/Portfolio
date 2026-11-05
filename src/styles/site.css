@@ -595,7 +595,7 @@ a:focus-visible,button:focus-visible{outline-color:var(--ab-accent)}
 .ab-cs__toc button.is-on{color:var(--ab-text);border-left-color:var(--ab-accent);font-weight:600}
 .ab-cs__toc button.is-on span{color:var(--ab-accent-ink)}
 .ab-cs__chapters{display:grid;gap:clamp(48px,7vw,80px);min-width:0}
-.ab-cs__ch{scroll-margin-top:90px;max-width:760px}
+.ab-cs__ch{scroll-margin-top:90px;max-width:760px;min-width:0}
 .ab-cs__chnum{margin:0 0 10px;font-size:12.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ab-accent-ink)}
 .ab-cs__ch h2{margin:0 0 14px;font-family:var(--font-head);font-weight:800;font-size:clamp(26px,3.6vw,40px);letter-spacing:-.03em;line-height:1.05;text-wrap:balance}
 .ab-cs__ch > p{margin:0 0 14px;font-size:17px;line-height:1.65;color:var(--ab-ink-body)}
@@ -614,8 +614,8 @@ a:focus-visible,button:focus-visible{outline-color:var(--ab-accent)}
 .ab-cs__next-t span{color:var(--ab-accent);display:inline-block;transition:transform .25s}
 .ab-cs__next:hover .ab-cs__next-t span{transform:translateX(6px)}
 @media (max-width:900px){
-  .ab-cs__layout{grid-template-columns:1fr}
-  .ab-cs__toc{position:static}
+  .ab-cs__layout{grid-template-columns:minmax(0,1fr)}
+  .ab-cs__toc{position:static;min-width:0}
   .ab-cs__toc ol{display:flex;overflow-x:auto;border-left:0;border-bottom:2px solid var(--ab-border);scrollbar-width:none;gap:0}
   .ab-cs__toc ol::-webkit-scrollbar{display:none}
   .ab-cs__toc button{white-space:nowrap;border-left:0;margin-left:0;border-bottom:2px solid transparent;margin-bottom:-2px;padding:8px 12px}
