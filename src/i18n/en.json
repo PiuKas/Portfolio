@@ -61,9 +61,9 @@
    "Mi trabajo en",
    "My work at"
   ],
-  "Product Designer - Abr 2024 — Hoy": [
-   "Product Designer - Abr 2024 — Hoy",
-   "Product Designer - Apr 2024 — Present"
+  "Product Designer - Abr 2024 - Hoy": [
+   "Product Designer - Abr 2024 - Hoy",
+   "Product Designer - Apr 2024 - Present"
   ],
   "01 Rediseño del front Proyecto propio, de principio a fin": [
    "<b>01</b> Rediseño del front <span>Proyecto propio, de principio a fin</span>",
@@ -73,9 +73,9 @@
    "<b>02</b> Producto SaaS <span>Mantenimiento y evolución</span>",
    "<b>02</b> SaaS products <span>Maintenance and evolution</span>"
   ],
-  "01 Rediseño del front - Feb 2025 — Hoy": [
-   "<span class=\"ab-clorian__num\">01</span> Rediseño del front - Feb 2025 — Hoy",
-   "<span class=\"ab-clorian__num\">01</span> Front-end redesign - Feb 2025 — Present"
+  "01 Rediseño del front - Feb 2025 - Hoy": [
+   "<span class=\"ab-clorian__num\">01</span> Rediseño del front - Feb 2025 - Hoy",
+   "<span class=\"ab-clorian__num\">01</span> Front-end redesign - Feb 2025 - Present"
   ],
   "Una web de venta de entradas nueva para todos los clientes": [
    "Una web de venta de entradas nueva para todos los clientes",
@@ -345,33 +345,33 @@
    "Dónde he trabajado<span class=\"ab-dot\">.</span>",
    "Where I've worked<span class=\"ab-dot\">.</span>"
   ],
-  "(02) — EXPERIENCIA": [
-   "<span class=\"ab-num-accent\">(02)</span> — EXPERIENCIA",
-   "<span class=\"ab-num-accent\">(02)</span> — EXPERIENCE"
+  "(02) - EXPERIENCIA": [
+   "<span class=\"ab-num-accent\">(02)</span> - EXPERIENCIA",
+   "<span class=\"ab-num-accent\">(02)</span> - EXPERIENCE"
   ],
   "Product Designer Rol ampliado": [
    "Product Designer <span class=\"ab-roles__badge\">Rol ampliado</span>",
    "Product Designer <span class=\"ab-roles__badge\">Expanded role</span>"
   ],
-  "May 2026 — Hoy": [
-   "May 2026 — <span class=\"ab-now\">Hoy</span>",
-   "May 2026 — <span class=\"ab-now\">Present</span>"
+  "May 2026 - Hoy": [
+   "May 2026 - <span class=\"ab-now\">Hoy</span>",
+   "May 2026 - <span class=\"ab-now\">Present</span>"
   ],
   "Diseño todos los productos internos, a tiempo completo.": [
    "Diseño todos los productos internos, a tiempo completo.",
    "I design all our internal products, full time."
   ],
-  "Abr 2024 — Abr 2026": [
-   "Abr 2024 — Abr 2026",
-   "Apr 2024 — Apr 2026"
+  "Abr 2024 - Abr 2026": [
+   "Abr 2024 - Abr 2026",
+   "Apr 2024 - Apr 2026"
   ],
   "Mitad diseño, mitad maquetación, en un solo proyecto.": [
    "Mitad diseño, mitad maquetación, en un solo proyecto.",
    "Half design, half front-end build, on a single project."
   ],
-  "Abr 2024 — Hoy": [
-   "Abr 2024 — <span class=\"ab-now\">Hoy</span>",
-   "Apr 2024 — <span class=\"ab-now\">Present</span>"
+  "Abr 2024 - Hoy": [
+   "Abr 2024 - <span class=\"ab-now\">Hoy</span>",
+   "Apr 2024 - <span class=\"ab-now\">Present</span>"
   ],
   "Diseño y desarrollo web": [
    "Diseño y desarrollo web",
@@ -381,9 +381,9 @@
    "Prácticas en diseño y desarrollo web",
    "Web design and development internship"
   ],
-  "(03) — QUÉ HAGO": [
-   "<span class=\"ab-num-accent\">(03)</span> — QUÉ HAGO",
-   "<span class=\"ab-num-accent\">(03)</span> — WHAT I DO"
+  "(03) - QUÉ HAGO": [
+   "<span class=\"ab-num-accent\">(03)</span> - QUÉ HAGO",
+   "<span class=\"ab-num-accent\">(03)</span> - WHAT I DO"
   ],
   "Producto, sistema y código.": [
    "Producto, sistema y código<span class=\"ab-dot\">.</span>",
@@ -441,9 +441,9 @@
    "Cómo trabajo<span class=\"ab-dot\">.</span>",
    "How I work<span class=\"ab-dot\">.</span>"
   ],
-  "(04) — PROCESO": [
-   "<span class=\"ab-num-accent\">(04)</span> — PROCESO",
-   "<span class=\"ab-num-accent\">(04)</span> — PROCESS"
+  "(04) - PROCESO": [
+   "<span class=\"ab-num-accent\">(04)</span> - PROCESO",
+   "<span class=\"ab-num-accent\">(04)</span> - PROCESS"
   ],
   "Seis pasos desde la primera pregunta hasta que está en producción. Se repiten tantas veces como el producto necesite.": [
    "Seis pasos desde la primera pregunta hasta que está en producción. Se repiten tantas veces como el producto necesite.",
@@ -497,9 +497,9 @@
    "Sigo la implementación en Scrum y reviso lo que se construye hasta que sale.",
    "I follow the build in Scrum and review what gets built until it ships."
   ],
-  "(05) — IA aplicada al diseño": [
-   "<span class=\"ab-num-accent\">(05)</span> — IA aplicada al diseño",
-   "<span class=\"ab-num-accent\">(05)</span> — AI applied to design"
+  "(05) - IA aplicada al diseño": [
+   "<span class=\"ab-num-accent\">(05)</span> - IA aplicada al diseño",
+   "<span class=\"ab-num-accent\">(05)</span> - AI applied to design"
   ],
   "La IA me quita el trabajo mecánico. Las decisiones las sigo tomando yo.": [
    "La IA me quita el trabajo mecánico. Las decisiones las sigo tomando yo<span class=\"ab-dot\">.</span>",
@@ -545,17 +545,17 @@
    "tema de WordPress editable",
    "editable WordPress theme"
   ],
-  "— 1. lee tokens, componentes y assets": [
-   "— 1. lee tokens, componentes y assets",
-   "— 1. reads tokens, components and assets"
+  "- 1. lee tokens, componentes y assets": [
+   "- 1. lee tokens, componentes y assets",
+   "- 1. reads tokens, components and assets"
   ],
-  "— 2. mapea cada sección a un bloque": [
-   "— 2. mapea cada sección a un bloque",
-   "— 2. maps each section to a block"
+  "- 2. mapea cada sección a un bloque": [
+   "- 2. mapea cada sección a un bloque",
+   "- 2. maps each section to a block"
   ],
-  "— 3. genera HTML semántico y accesible": [
-   "— 3. genera HTML semántico y accesible",
-   "— 3. generates semantic, accessible HTML"
+  "- 3. genera HTML semántico y accesible": [
+   "- 3. genera HTML semántico y accesible",
+   "- 3. generates semantic, accessible HTML"
   ],
   "# decisiones de diseño: mías": [
    "# decisiones de diseño: mías",
@@ -569,9 +569,9 @@
    "Sobre mí y contacto<span class=\"ab-dot\">.</span>",
    "About me and contact<span class=\"ab-dot\">.</span>"
   ],
-  "(06) — SOBRE MÍ": [
-   "<span class=\"ab-num-accent\">(06)</span> — SOBRE MÍ",
-   "<span class=\"ab-num-accent\">(06)</span> — ABOUT ME"
+  "(06) - SOBRE MÍ": [
+   "<span class=\"ab-num-accent\">(06)</span> - SOBRE MÍ",
+   "<span class=\"ab-num-accent\">(06)</span> - ABOUT ME"
   ],
   "Sobre mí": [
    "Sobre mí",
