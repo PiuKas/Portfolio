@@ -4,141 +4,152 @@ import PortfolioCover from '../../components/covers/PortfolioCover.astro';
 ---
 <Base
   title="Este portfolio - Andrea Blanco"
-  description="Cómo pasé de una web que ya no me representaba a un portfolio de Product Designer, diseñado y construido iterando con Claude."
+  description="Planteé, construí y publiqué mi propia web como un producto: con un problema claro, decisiones técnicas propias y la IA escribiendo el código bajo mi dirección."
 >
   <main class="ab-cs is-enter">
-    <div class="ab-container">
-      <a class="ab-cs__back" href="/#proyectos">← Todos los proyectos</a>
+<div class="ab-container">
+    <a class="ab-cs__back" href="/#proyectos">← Todos los proyectos</a>
 
-      <header class="ab-cs__head">
-        <p class="ab-cs__eyebrow">Mini proyecto - Diseño con IA - 2026</p>
-        <h1 class="ab-cs__title">Este portfolio<span class="ab-dot">.</span></h1>
-        <p class="ab-cs__lede">Cómo pasé de una web que ya no me representaba a un portfolio de Product Designer, diseñado y construido iterando con Claude.</p>
-      </header>
+    <header class="ab-cs__head">
+      <p class="ab-cs__eyebrow">Proyecto propio - Construido con IA - 2026</p>
+      <h1 class="ab-cs__title">Este portfolio<span class="ab-dot">.</span></h1>
+      <p class="ab-cs__lede">Planteé, construí y publiqué mi propia web como un producto: con un problema claro, decisiones técnicas propias y la IA escribiendo el código bajo mi dirección.</p>
+    </header>
 
-      <div class="ab-cs__cover"><PortfolioCover /></div>
+    <div class="ab-cs__cover"><PortfolioCover /></div>
 
-      <dl class="ab-cs__meta">
-        <div><dt>Mi rol</dt><dd>Estrategia, copy, diseño y dirección de la implementación</dd></div>
-        <div><dt>Herramientas</dt><dd>Claude, Claude Code, Figma, Astro</dd></div>
-        <div><dt>Plataforma</dt><dd>Web estática en Astro, publicada desde GitHub</dd></div>
-        <div><dt>Estado</dt><dd class="ab-case__status">Segunda versión en curso</dd></div>
-      </dl>
+    <dl class="ab-cs__meta">
+      <div><dt>Mi rol</dt><dd>Producto, contenido, diseño y dirección de la implementación</dd></div>
+      <div><dt>Herramientas</dt><dd>Claude, Claude Code, Astro, GitHub, Netlify</dd></div>
+      <div><dt>Plataforma</dt><dd>Web estática en Astro, publicada desde GitHub</dd></div>
+      <div><dt>Estado</dt><dd class="ab-case__status">Segunda versión en curso</dd></div>
+    </dl>
 
-      <div class="ab-case__cards ab-cs__cards">
-        <div class="ab-case__card"><h4>El reto</h4><p>Mi web contaba una historia distinta a la de mi CV y mi LinkedIn, y no explicaba cómo trabajo.</p></div>
-        <div class="ab-case__card ab-case__card--do"><h4>Qué hice</h4><p>Redefinir el mensaje, documentar un design system desde el código y rediseñar la web sección a sección en un simulador.</p></div>
-        <div class="ab-case__card"><h4>Resultado</h4><p>Una web con una sola narrativa, casos explicados y detalles propios, construida en Astro a partir del simulador sin rehacer el diseño.</p></div>
-      </div>
-
-      <div class="ab-cs__layout">
-        <nav class="ab-cs__toc" aria-label="Capítulos">
-          <ol>
-            <li><button type="button" data-go="pf-c1"><span>01</span> El punto de partida</button></li>
-            <li><button type="button" data-go="pf-c2"><span>02</span> La primera versión</button></li>
-            <li><button type="button" data-go="pf-c3"><span>03</span> Por qué rehacerla</button></li>
-            <li><button type="button" data-go="pf-c4"><span>04</span> El método</button></li>
-            <li><button type="button" data-go="pf-c5"><span>05</span> Qué cambió</button></li>
-            <li><button type="button" data-go="pf-c6"><span>06</span> Lo que quité</button></li>
-            <li><button type="button" data-go="pf-c7"><span>07</span> Qué aprendí</button></li>
-          </ol>
-        </nav>
-
-        <div class="ab-cs__chapters">
-          <section class="ab-cs__ch" id="pf-c1">
-            <p class="ab-cs__chnum">01 - El punto de partida</p>
-            <h2>Una web de otra etapa</h2>
-            <p>Mi primera web venía de cuando estudiaba Comunicación Interactiva. Me presentaba como un perfil generalista de comunicación: redes sociales, páginas web y proyectos muy distintos entre sí.</p>
-            <p>Para entonces ya diseñaba producto a diario. La web no lo contaba.</p>
-          </section>
-
-          <section class="ab-cs__ch" id="pf-c2">
-            <p class="ab-cs__chnum">02 - La primera versión</p>
-            <h2>Un perfil técnico de UX/UI</h2>
-            <p>En verano de 2026 la rehice desde cero para posicionarme como diseñadora UX/UI con criterio técnico. La publiqué en octubre.</p>
-            <ul class="ab-cs__list">
-              <li><strong>Un tema hijo de bloques en WordPress</strong>, con clases propias y nombres coherentes en todo el código.</li>
-              <li><strong>Estética monocroma</strong>: tipografía grande, mucho aire y una sola sección oscura.</li>
-              <li><strong>Proyectos de clientes</strong> enlazados a sus webs en producción.</li>
-              <li><strong>Trabajo con IA</strong>: estrategia y copy con Claude, implementación con Claude Code.</li>
-            </ul>
-            <figure class="ab-pfv1" aria-label="Esquema de la primera versión">
-              <div class="ab-pfv1__bar"><i></i><i></i><i></i><span>andreablancolopez.com - v1</span></div>
-              <div class="ab-pfv1__body">
-                <p class="ab-pfv1__eyebrow">UX/UI Designer - Product Developer</p>
-                <p class="ab-pfv1__title">Diseño UX/UI con criterio técnico</p>
-                <div class="ab-pfv1__rows"><i></i><i></i><i></i></div>
-              </div>
-              <figcaption>La primera versión, en esquema.</figcaption>
-            </figure>
-          </section>
-
-          <section class="ab-cs__ch" id="pf-c3">
-            <p class="ab-cs__chnum">03 - Por qué rehacerla</p>
-            <h2>Mi perfil había cambiado</h2>
-            <p>Mi rol en la empresa creció y moví mi CV y mi LinkedIn a Product Designer. La web tenía que contar lo mismo.</p>
-            <ul class="ab-cs__list">
-              <li><strong>Los proyectos eran enlaces</strong>, no casos: no se veía qué había decidido yo.</li>
-              <li><strong>La página era un scroll plano</strong>, con todas las secciones al mismo ritmo.</li>
-              <li><strong>Algunos textos sobrevendían</strong> o no los podía defender en una entrevista.</li>
-            </ul>
-          </section>
-
-          <section class="ab-cs__ch" id="pf-c4">
-            <p class="ab-cs__chnum">04 - El método</p>
-            <h2>Diseñar en un simulador</h2>
-            <p>En lugar de tocar la web en producción, la rediseñé en una réplica exacta con mis propios componentes, con vista de escritorio y de móvil.</p>
-            <ol class="ab-pfflow">
-              <li><b>Design system</b><span>Documentado desde el código del tema, con sus tokens y componentes.</span></li>
-              <li><b>Simulador</b><span>Réplica de la web donde iteré sección a sección con Claude.</span></li>
-              <li><b>Aprobación</b><span>Ningún cambio entra en el design system sin que yo lo acepte.</span></li>
-              <li><b>Traspaso</b><span>Con el diseño cerrado, Claude construyó la web en Astro a partir del simulador y del design system.</span></li>
-            </ol>
-          </section>
-
-          <section class="ab-cs__ch" id="pf-c5">
-            <p class="ab-cs__chnum">05 - Qué cambió</p>
-            <h2>Antes y ahora</h2>
-            <div class="ab-tbl"><table class="ab-pfcmp">
-              <thead><tr><th></th><th>Primera versión</th><th>Ahora</th></tr></thead>
-              <tbody>
-                <tr><th>Posicionamiento</th><td>UX/UI Designer y Product Developer</td><td>Product Designer</td></tr>
-                <tr><th>Color</th><td>Monocromo</td><td>Monocromo con un naranja de acento</td></tr>
-                <tr><th>Proyectos</th><td>Enlaces a webs de clientes</td><td>Casos con reto, qué hice y resultado</td></tr>
-                <tr><th>Ritmo</th><td>Scroll vertical continuo</td><td>Capítulos y un lienzo horizontal</td></tr>
-                <tr><th>Proceso</th><td>No aparecía</td><td>Seis pasos, del problema a la implementación</td></tr>
-                <tr><th>Plataforma</th><td>WordPress con un tema hijo de bloques</td><td>Web estática en Astro</td></tr>
-                <tr><th>Detalles</th><td>Animaciones de entrada</td><td>Intro, cursor de Figma y Pixel</td></tr>
-              </tbody>
-            </table></div>
-          </section>
-
-          <section class="ab-cs__ch" id="pf-c6">
-            <p class="ab-cs__chnum">06 - Lo que quité</p>
-            <h2>Menos, pero mejor</h2>
-            <p>Tan importante como lo que añadí fue lo que descarté por el camino, para que la web no se cargara.</p>
-            <ul class="ab-cs__list">
-              <li><strong>El emoji de saludo</strong> del titular: el cursor de Figma ya saluda.</li>
-              <li><strong>El subrayado del titular</strong>: competía con la selección de Figma.</li>
-              <li><strong>Las líneas naranjas al pasar el ratón</strong>: demasiado ruido.</li>
-              <li><strong>La tipografía monoespaciada en las etiquetas</strong>: daba un aire genérico.</li>
-              <li><strong>Frases que no podía defender</strong> en una entrevista.</li>
-            </ul>
-          </section>
-
-          <section class="ab-cs__ch" id="pf-c7">
-            <p class="ab-cs__chnum">07 - Qué aprendí</p>
-            <h2>La web es un producto más</h2>
-            <p>La traté como cualquier producto: primero el problema y el mensaje, después el diseño y por último la implementación. La IA me permitió probar muchas ideas rápido, pero cada decisión de qué se queda y qué se va la tomé yo.</p>
-            <p>También cambié la plataforma. Una web que solo edito yo, y siempre con Claude, no necesitaba un gestor de contenidos. En Astro es más rápida, más fácil de mantener y su código está en mi GitHub.</p>
-          </section>
-        </div>
-      </div>
-
-      <a class="ab-cs__next" href="/proyectos/pixel/">
-        <span class="ab-cs__next-l">Siguiente proyecto</span>
-        <span class="ab-cs__next-t">Pixel <span aria-hidden="true">→</span></span>
-      </a>
+    <div class="ab-case__cards ab-cs__cards">
+      <div class="ab-case__card"><h4>El reto</h4><p>Mi web contaba una historia distinta a la de mi CV y mi LinkedIn, y no explicaba cómo trabajo.</p></div>
+      <div class="ab-case__card ab-case__card--do"><h4>Qué hice</h4><p>Redefinir el mensaje, decidir la arquitectura (de WordPress a Astro), documentar un design system desde el código e iterar la web en un simulador.</p></div>
+      <div class="ab-case__card"><h4>Resultado</h4><p>Una web estática en Astro, con el código público en GitHub y publicada en Netlify, que mantengo yo con Claude Code.</p></div>
     </div>
+
+    <div class="ab-cs__layout">
+      <nav class="ab-cs__toc" aria-label="Capítulos">
+        <ol>
+          <li><button type="button" data-go="pf-c1"><span>01</span> El punto de partida</button></li>
+          <li><button type="button" data-go="pf-c2"><span>02</span> La primera versión</button></li>
+          <li><button type="button" data-go="pf-c3"><span>03</span> Por qué rehacerla</button></li>
+          <li><button type="button" data-go="pf-c4"><span>04</span> El método</button></li>
+          <li><button type="button" data-go="pf-c8"><span>05</span> Las decisiones</button></li>
+          <li><button type="button" data-go="pf-c5"><span>06</span> Qué cambió</button></li>
+          <li><button type="button" data-go="pf-c6"><span>07</span> Lo que quité</button></li>
+          <li><button type="button" data-go="pf-c7"><span>08</span> Qué aprendí</button></li>
+        </ol>
+      </nav>
+
+      <div class="ab-cs__chapters">
+        <section class="ab-cs__ch" id="pf-c1">
+          <p class="ab-cs__chnum">01 - El punto de partida</p>
+          <h2>Una web de otra etapa</h2>
+          <p>Mi primera web era de otra etapa. Me presentaba como un perfil generalista, con proyectos muy distintos entre sí.</p>
+          <p>Para entonces ya diseñaba producto a diario. La web no lo contaba.</p>
+        </section>
+
+        <section class="ab-cs__ch" id="pf-c2">
+          <p class="ab-cs__chnum">02 - La primera versión</p>
+          <h2>Un perfil técnico de UX/UI</h2>
+          <p>En verano de 2026 la rehice desde cero para posicionarme como diseñadora UX/UI con criterio técnico. La publiqué en octubre.</p>
+          <ul class="ab-cs__list">
+            <li><strong>Un tema hijo de bloques en WordPress</strong>, con clases propias y nombres coherentes en todo el código.</li>
+            <li><strong>Estética monocroma</strong>: tipografía grande, mucho aire y una sola sección oscura.</li>
+            <li><strong>Proyectos de clientes</strong> enlazados a sus webs en producción.</li>
+            <li><strong>Trabajo con IA</strong>: estrategia y copy con Claude, implementación con Claude Code.</li>
+          </ul>
+          <figure class="ab-pfv1" aria-label="Esquema de la primera versión">
+            <div class="ab-pfv1__bar"><i></i><i></i><i></i><span>andreablancolopez.com - v1</span></div>
+            <div class="ab-pfv1__body">
+              <p class="ab-pfv1__eyebrow">UX/UI Designer - Product Developer</p>
+              <p class="ab-pfv1__title">Diseño UX/UI con criterio técnico</p>
+              <div class="ab-pfv1__rows"><i></i><i></i><i></i></div>
+            </div>
+            <figcaption>La primera versión, en esquema.</figcaption>
+          </figure>
+        </section>
+
+        <section class="ab-cs__ch" id="pf-c3">
+          <p class="ab-cs__chnum">03 - Por qué rehacerla</p>
+          <h2>Mi perfil había cambiado</h2>
+          <p>Mi rol en la empresa creció y mi trabajo se fue moviendo del diseño al producto: definir, priorizar y construir con IA. Web, CV y LinkedIn tenían que contar lo mismo: Product Builder.</p>
+          <ul class="ab-cs__list">
+            <li><strong>Los proyectos eran enlaces</strong>, no casos: no se veía qué había decidido yo.</li>
+            <li><strong>La página era un scroll plano</strong>, con todas las secciones al mismo ritmo.</li>
+            <li><strong>Algunos textos sobrevendían</strong> o no los podía defender en una entrevista.</li>
+          </ul>
+        </section>
+
+        <section class="ab-cs__ch" id="pf-c4">
+          <p class="ab-cs__chnum">04 - El método</p>
+          <h2>Diseñar en un simulador</h2>
+          <p>En lugar de tocar la web en producción, la rediseñé en una réplica exacta con mis propios componentes, con vista de escritorio y de móvil.</p>
+          <ol class="ab-pfflow">
+            <li><b>Design system</b><span>Documentado desde el código del tema, con sus tokens y componentes.</span></li>
+            <li><b>Simulador</b><span>Réplica de la web donde iteré sección a sección con Claude.</span></li>
+            <li><b>Aprobación</b><span>Ningún cambio entra en el design system sin que yo lo acepte.</span></li>
+            <li><b>Traspaso</b><span>Con el diseño cerrado, Claude construyó la web en Astro a partir del simulador y del design system.</span></li>
+          </ol>
+        </section>
+
+        <section class="ab-cs__ch" id="pf-c8">
+          <p class="ab-cs__chnum">05 - Las decisiones</p>
+          <h2>Decidir como en cualquier producto</h2>
+          <p>Antes de construir nada me hice las mismas preguntas que en un producto: quién la usa, quién la mantiene y qué tiene que demostrar.</p>
+          <ul class="ab-cs__list">
+            <li><strong>De WordPress a Astro</strong>: una web que solo edito yo, y siempre con Claude, no necesitaba un gestor de contenidos. Estática es más rápida y más fácil de mantener.</li>
+            <li><strong>El código, en GitHub</strong>: es público y es lo que me piden en los procesos de selección. La web también enseña cómo trabajo.</li>
+            <li><strong>Publicación en Netlify</strong>: conectada al repositorio, cada cambio que apruebo sale a producción sin pasos manuales.</li>
+            <li><strong>Un simulador antes que producción</strong>: ningún cambio llega a la web real sin probarlo antes en una réplica.</li>
+          </ul>
+        </section>
+
+        <section class="ab-cs__ch" id="pf-c5">
+          <p class="ab-cs__chnum">06 - Qué cambió</p>
+          <h2>Antes y ahora</h2>
+          <div class="ab-tbl"><table class="ab-pfcmp">
+            <thead><tr><th></th><th>Primera versión</th><th>Ahora</th></tr></thead>
+            <tbody>
+              <tr><th>Posicionamiento</th><td>UX/UI Designer y Product Developer</td><td>Product Builder</td></tr>
+              <tr><th>Color</th><td>Monocromo</td><td>Monocromo con un naranja de acento</td></tr>
+              <tr><th>Proyectos</th><td>Enlaces a webs de clientes</td><td>Casos con reto, qué hice y resultado</td></tr>
+              <tr><th>Ritmo</th><td>Scroll vertical continuo</td><td>Capítulos y un lienzo horizontal</td></tr>
+              <tr><th>Proceso</th><td>No aparecía</td><td>Seis pasos, del problema al producto</td></tr>
+              <tr><th>Plataforma</th><td>WordPress con un tema hijo de bloques</td><td>Web estática en Astro</td></tr>
+                <tr><th>Detalles</th><td>Animaciones de entrada</td><td>Intro y Pixel</td></tr>
+            </tbody>
+          </table></div>
+        </section>
+
+        <section class="ab-cs__ch" id="pf-c6">
+          <p class="ab-cs__chnum">07 - Lo que quité</p>
+          <h2>Menos, pero mejor</h2>
+          <p>Tan importante como lo que añadí fue lo que descarté por el camino, para que la web no se cargara.</p>
+          <ul class="ab-cs__list">
+            <li><strong>El cursor y la selección de Figma</strong> del titular: hacían que la web se leyera como de diseño, no de producto.</li>
+            <li><strong>Las líneas naranjas al pasar el ratón</strong>: demasiado ruido.</li>
+            <li><strong>La tipografía monoespaciada en las etiquetas</strong>: daba un aire genérico.</li>
+            <li><strong>Frases que no podía defender</strong> en una entrevista.</li>
+          </ul>
+        </section>
+
+        <section class="ab-cs__ch" id="pf-c7">
+          <p class="ab-cs__chnum">08 - Qué aprendí</p>
+          <h2>La web es un producto más</h2>
+          <p>La traté como cualquier producto: primero el problema y el mensaje, después el diseño y por último la implementación. La IA me permitió probar muchas ideas rápido, pero cada decisión de qué se queda y qué se va la tomé yo.</p>
+        </section>
+      </div>
+    </div>
+
+    <a class="ab-cs__next" href="/proyectos/web-entrenador-combate/">
+      <span class="ab-cs__next-l">Siguiente proyecto</span>
+      <span class="ab-cs__next-t">Web para un entrenador de deportes de combate <span aria-hidden="true">→</span></span>
+    </a>
+  </div>
   </main>
 </Base>

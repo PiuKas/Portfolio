@@ -1,153 +1,152 @@
 ---
 import Base from '../../layouts/Base.astro';
-
 ---
 <Base
   title="Pixel - Andrea Blanco"
   description="El pequeño asistente que acompaña a quien visita esta web. En treinta segundos responde lo que un recruiter con prisa quiere saber de mí."
 >
   <main class="ab-cs is-enter">
-    <div class="ab-container">
-      <a class="ab-cs__back" href="/#proyectos">← Todos los proyectos</a>
+<div class="ab-container">
+    <a class="ab-cs__back" href="/#proyectos">← Todos los proyectos</a>
 
-      <!-- 1. Cabecera: tipo, título, resumen -->
-      <header class="ab-cs__head">
-        <p class="ab-cs__eyebrow">Mini proyecto - Vibe coding con IA - 2026</p>
-        <h1 class="ab-cs__title">Pixel<span class="ab-dot">.</span></h1>
-        <p class="ab-cs__lede">El pequeño asistente que acompaña a quien visita esta web. En treinta segundos responde lo que un recruiter con prisa quiere saber de mí.</p>
-      </header>
+    <!-- 1. Cabecera: tipo, título, resumen -->
+    <header class="ab-cs__head">
+      <p class="ab-cs__eyebrow">Mini proyecto - Vibe coding con IA - 2026</p>
+      <h1 class="ab-cs__title">Pixel<span class="ab-dot">.</span></h1>
+      <p class="ab-cs__lede">El pequeño asistente que acompaña a quien visita esta web. En treinta segundos responde lo que un recruiter con prisa quiere saber de mí.</p>
+    </header>
 
-      <!-- 2. Portada -->
-      <div class="ab-cs__cover ab-pxcover"><canvas class="ab-pxcover__cv" data-pxcover width="960" height="540" aria-label="Pixel y algunos de sus estados"></canvas></div>
+    <!-- 2. Portada -->
+    <div class="ab-cs__cover ab-pxcover"><canvas class="ab-pxcover__cv" data-pxcover width="960" height="540" aria-label="Pixel y algunos de sus estados"></canvas></div>
 
-      <!-- 3. Ficha -->
-      <dl class="ab-cs__meta">
-        <div><dt>Mi rol</dt><dd>Concepto, diseño e implementación con IA</dd></div>
-        <div><dt>Herramientas</dt><dd>Claude, Claude Code</dd></div>
-        <div><dt>Formato</dt><dd>Pixel art de 16 × 16, HTML y JavaScript</dd></div>
-        <div><dt>Estado</dt><dd class="ab-case__status">Vive en esta web</dd></div>
-      </dl>
+    <!-- 3. Ficha -->
+    <dl class="ab-cs__meta">
+      <div><dt>Mi rol</dt><dd>Concepto, diseño e implementación con IA</dd></div>
+      <div><dt>Herramientas</dt><dd>Claude, Claude Code</dd></div>
+      <div><dt>Formato</dt><dd>Pixel art de 16 × 16, HTML y JavaScript generado con IA</dd></div>
+      <div><dt>Estado</dt><dd class="ab-case__status">Vive en esta web</dd></div>
+    </dl>
 
-      <!-- 4. Reto / Qué hice / Resultado (mismo patrón que los casos de producto) -->
-      <div class="ab-case__cards ab-cs__cards">
-        <div class="ab-case__card"><h4>El reto</h4><p>Que alguien con prisa entienda mi perfil sin leer toda la página, y que la web tenga un detalle que se recuerde.</p></div>
-        <div class="ab-case__card ab-case__card--do"><h4>Qué hice</h4><p>Un personaje original en pixel art, sus estados y un pequeño design system. Lo diseñé iterando con Claude y lo construí en HTML y JavaScript.</p></div>
-        <div class="ab-case__card"><h4>Resultado</h4><p>Aparece al pasar el hero, responde cinco preguntas clave y se adapta al móvil y al fondo oscuro.</p></div>
-      </div>
-
-      <!-- 5. Capítulos con índice -->
-      <div class="ab-cs__layout">
-        <nav class="ab-cs__toc" aria-label="Capítulos">
-          <ol>
-            <li><button type="button" data-go="px-c1"><span>01</span> El punto de partida</button></li>
-            <li><button type="button" data-go="px-c2"><span>02</span> Bocetos</button></li>
-            <li><button type="button" data-go="px-c3"><span>03</span> La decisión</button></li>
-            <li><button type="button" data-go="px-c4"><span>04</span> El sistema</button></li>
-            <li><button type="button" data-go="px-c5"><span>05</span> En la web</button></li>
-            <li><button type="button" data-go="px-c6"><span>06</span> Cómo trabajé con IA</button></li>
-            <li><button type="button" data-go="px-c7"><span>07</span> Qué aprendí</button></li>
-          </ol>
-        </nav>
-
-        <div class="ab-cs__chapters">
-          <section class="ab-cs__ch" id="px-c1">
-            <p class="ab-cs__chnum">01 - El punto de partida</p>
-            <h2>Una web que se lee en diagonal</h2>
-            <p>Quien revisa portfolios tiene poco tiempo. Quería que, sin leer toda la página, cualquiera pudiera saber qué me diferencia, cómo trabajo con Producto y desarrollo y cómo uso la IA.</p>
-            <p>También quería que la IA tuviera presencia real en la web, no solo como un texto que dice que la uso. Decidí crear un personaje propio que hiciera de guía.</p>
-          </section>
-
-          <section class="ab-cs__ch" id="px-c2">
-            <p class="ab-cs__chnum">02 - Bocetos</p>
-            <h2>Cinco versiones hasta dar con él</h2>
-            <p>Cada versión respondía a lo que no funcionaba en la anterior. Lo diseñé directamente en el navegador para ver cada cambio en contexto.</p>
-            <ol class="ab-sketches">
-              <li><div class="ab-sketches__img"><svg viewBox="0 0 220 220" aria-hidden="true"><ellipse cx="110" cy="204" rx="58" ry="8" fill="rgba(0,0,0,.12)"/><rect x="100" y="34" width="20" height="22" rx="6" fill="#ece9e4" stroke="rgba(0,0,0,.15)" stroke-width="2"/><circle cx="110" cy="30" r="8" fill="#f2541b"/><rect x="34" y="120" width="28" height="13" rx="6.5" fill="#ece9e4" stroke="rgba(0,0,0,.15)" stroke-width="2"/><circle cx="29" cy="126" r="12" fill="#ece9e4" stroke="rgba(0,0,0,.15)" stroke-width="2"/><rect x="48" y="52" width="124" height="132" rx="44" fill="#ece9e4" stroke="rgba(0,0,0,.15)" stroke-width="2"/><circle cx="110" cy="104" r="28" fill="#0a0a0a"/><circle cx="110" cy="104" r="14" fill="#f2541b"/><path d="M96 150 Q110 160 124 150" fill="none" stroke="#0a0a0a" stroke-width="5" stroke-linecap="round"/></svg></div>
-                <p class="ab-sketches__n">Boceto 1 - Vectorial</p><p>Redondo y con manos. Simpático, pero no encajaba con una web tan técnica.</p></li>
-              <li><div class="ab-sketches__img"><canvas data-sketch="largo"></canvas></div>
-                <p class="ab-sketches__n">Boceto 2 - Primer pixel art</p><p>El pixel art conectó con el tono de la web. Era demasiado alargado y la mano distraía.</p></li>
-              <li><div class="ab-sketches__img"><canvas data-sketch="cute"></canvas></div>
-                <p class="ab-sketches__n">Boceto 3 - Más compacto</p><p>Más bajito y con coloretes. Quedaba demasiado redondo y dulce.</p></li>
-              <li><div class="ab-sketches__img"><canvas data-sketch="cuadrado"></canvas></div>
-                <p class="ab-sketches__n">Boceto 4 - Cuadrado</p><p>Cerca. Pero el ojo único le quitaba expresividad.</p></li>
-              <li class="is-final"><div class="ab-sketches__img"><canvas data-pxv="bloque"></canvas></div>
-                <p class="ab-sketches__n">Final - Bloque</p><p>Dos ojos con brillo, antena naranja y esquinas recortadas.</p></li>
-            </ol>
-          </section>
-
-          <section class="ab-cs__ch" id="px-c3">
-            <p class="ab-cs__chnum">03 - La decisión</p>
-            <h2>Tres direcciones, una elegida</h2>
-            <p>Antes de cerrar la forma, exploré tres personajes en la misma retícula y con la misma paleta. Elegí el Bloque porque es el más expresivo con menos píxeles y el que mejor convive con el resto de la web.</p>
-            <div class="ab-dirs3">
-              <figure><div><canvas data-pxv="bloque"></canvas></div><figcaption><b>Bloque</b> Elegido</figcaption></figure>
-              <figure><div><canvas data-pxv="pantalla"></canvas></div><figcaption><b>Pantalla</b> Descartado: más frío</figcaption></figure>
-              <figure><div><canvas data-pxv="cursor"></canvas></div><figcaption><b>Cursor</b> Descartado: poca cara</figcaption></figure>
-            </div>
-          </section>
-
-          <section class="ab-cs__ch" id="px-c4">
-            <p class="ab-cs__chnum">04 - El sistema</p>
-            <h2>Un design system de 16 × 16</h2>
-            <p>Para que Pixel se vea siempre igual de nítido, fijé unas reglas mínimas: retícula, paleta, construcción, tamaños y movimiento.</p>
-            <div class="ab-pxsys">
-              <div class="ab-pxsys__pal">
-                <span style="--c:#1d1d1f">Tinta</span><span style="--c:#efece6">Cuerpo</span><span style="--c:#d3cdc3">Sombra</span><span style="--c:#f2541b">Naranja</span><span style="--c:#fbfbfa">Brillo</span>
-              </div>
-              <ul class="ab-pxsys__rules">
-                <li>Contorno de 1 píxel en tinta, siempre cerrado.</li>
-                <li>Sin antialiasing ni curvas: solo celdas.</li>
-                <li>El naranja es solo un acento: la antena.</li>
-                <li>Tamaños en múltiplos enteros: 32, 48, 64 y 96 px.</li>
-                <li>Movimiento por fotogramas, con <code>steps()</code>.</li>
-              </ul>
-            </div>
-            <div class="ab-pxstates">
-              <figure><canvas data-pxstate="idle"></canvas><figcaption>Reposo</figcaption></figure>
-              <figure><canvas data-pxstate="blink"></canvas><figcaption>Parpadeo</figcaption></figure>
-              <figure><canvas data-pxstate="hello"></canvas><figcaption>Saludo</figcaption></figure>
-              <figure><canvas data-pxstate="talk"></canvas><figcaption>Hablando</figcaption></figure>
-              <figure><canvas data-pxstate="think"></canvas><figcaption>Pensando</figcaption></figure>
-              <figure><canvas data-pxstate="sleep"></canvas><figcaption>Dormido</figcaption></figure>
-              <figure class="is-dark"><canvas data-pxstate="idle" data-dark></canvas><figcaption>En oscuro</figcaption></figure>
-            </div>
-          </section>
-
-          <section class="ab-cs__ch" id="px-c5">
-            <p class="ab-cs__chnum">05 - En la web</p>
-            <h2>Cómo se comporta</h2>
-            <ul class="ab-cs__list">
-              <li><strong>Aparece al pasar el hero</strong> y saluda con dos saltitos. Antes no molesta.</li>
-              <li><strong>Cinco preguntas</strong> pensadas para quien contrata: qué me diferencia, cómo trabajo, cómo uso la IA, accesibilidad y cómo seguir.</li>
-              <li><strong>Se cierra al pulsar fuera</strong> o con Esc. Solo se cierra la burbuja: Pixel se queda.</li>
-              <li><strong>Sobre el bloque oscuro</strong> gana un contorno claro y un halo para no perderse.</li>
-              <li><strong>En móvil</strong> se puede ocultar desde la burbuja, porque la pantalla es pequeña.</li>
-              <li><strong>Respeta "reducir movimiento"</strong>: si el sistema lo pide, no anima nada.</li>
-            </ul>
-          </section>
-
-          <section class="ab-cs__ch" id="px-c6">
-            <p class="ab-cs__chnum">06 - Cómo trabajé con IA</p>
-            <h2>Yo decido, la IA acelera</h2>
-            <div class="ab-split">
-              <div><p class="ab-split__h">Lo decidí yo</p><p>La idea, el tono, la forma final, qué responde y cuándo aparece. También qué descartar en cada boceto.</p></div>
-              <div><p class="ab-split__h">Lo aceleró la IA</p><p>Dibujar variantes en minutos, montar la hoja de estados y escribir el código. Con Claude iteré el diseño y con Claude Code lo integré en la web.</p></div>
-            </div>
-          </section>
-
-          <section class="ab-cs__ch" id="px-c7">
-            <p class="ab-cs__chnum">07 - Qué aprendí</p>
-            <h2>Menos píxeles, más decisiones</h2>
-            <p>En 16 × 16 cada píxel cuenta: mover un ojo una celda cambia la expresión entera. Me obligó a decidir rápido y a justificar cada cambio, igual que en un producto. Y confirmó algo que aplico en mi trabajo: la IA es más útil cuando sabes exactamente qué quieres probar.</p>
-          </section>
-        </div>
-      </div>
-
-      <!-- 6. Siguiente proyecto -->
-      <a class="ab-cs__next" href="/proyectos/este-portfolio/">
-        <span class="ab-cs__next-l">Siguiente proyecto</span>
-        <span class="ab-cs__next-t">Este portfolio <span aria-hidden="true">→</span></span>
-      </a>
+    <!-- 4. Reto / Qué hice / Resultado (mismo patrón que los casos de producto) -->
+    <div class="ab-case__cards ab-cs__cards">
+      <div class="ab-case__card"><h4>El reto</h4><p>Que alguien con prisa entienda mi perfil sin leer toda la página, y que la web tenga un detalle que se recuerde.</p></div>
+      <div class="ab-case__card ab-case__card--do"><h4>Qué hice</h4><p>Un personaje original en pixel art, sus estados y un pequeño design system. Lo diseñé iterando con Claude y lo construí en HTML y JavaScript generado con IA, bajo mi dirección.</p></div>
+      <div class="ab-case__card"><h4>Resultado</h4><p>Aparece al pasar el hero, responde cinco preguntas clave y se adapta al móvil y al fondo oscuro.</p></div>
     </div>
+
+    <!-- 5. Capítulos con índice -->
+    <div class="ab-cs__layout">
+      <nav class="ab-cs__toc" aria-label="Capítulos">
+        <ol>
+          <li><button type="button" data-go="px-c1"><span>01</span> El punto de partida</button></li>
+          <li><button type="button" data-go="px-c2"><span>02</span> Bocetos</button></li>
+          <li><button type="button" data-go="px-c3"><span>03</span> La decisión</button></li>
+          <li><button type="button" data-go="px-c4"><span>04</span> El sistema</button></li>
+          <li><button type="button" data-go="px-c5"><span>05</span> En la web</button></li>
+          <li><button type="button" data-go="px-c6"><span>06</span> Cómo trabajé con IA</button></li>
+          <li><button type="button" data-go="px-c7"><span>07</span> Qué aprendí</button></li>
+        </ol>
+      </nav>
+
+      <div class="ab-cs__chapters">
+        <section class="ab-cs__ch" id="px-c1">
+          <p class="ab-cs__chnum">01 - El punto de partida</p>
+          <h2>Una web que se lee en diagonal</h2>
+          <p>Quien revisa portfolios tiene poco tiempo. Quería que, sin leer toda la página, cualquiera pudiera saber qué me diferencia, cómo trabajo con Producto y desarrollo y cómo uso la IA.</p>
+          <p>También quería que la IA tuviera presencia real en la web, no solo como un texto que dice que la uso. Decidí crear un personaje propio que hiciera de guía.</p>
+        </section>
+
+        <section class="ab-cs__ch" id="px-c2">
+          <p class="ab-cs__chnum">02 - Bocetos</p>
+          <h2>Cinco versiones hasta dar con él</h2>
+          <p>Cada versión respondía a lo que no funcionaba en la anterior. Lo diseñé directamente en el navegador para ver cada cambio en contexto.</p>
+          <ol class="ab-sketches">
+            <li><div class="ab-sketches__img"><svg viewBox="0 0 220 220" aria-hidden="true"><ellipse cx="110" cy="204" rx="58" ry="8" fill="rgba(0,0,0,.12)"/><rect x="100" y="34" width="20" height="22" rx="6" fill="#ece9e4" stroke="rgba(0,0,0,.15)" stroke-width="2"/><circle cx="110" cy="30" r="8" fill="#f2541b"/><rect x="34" y="120" width="28" height="13" rx="6.5" fill="#ece9e4" stroke="rgba(0,0,0,.15)" stroke-width="2"/><circle cx="29" cy="126" r="12" fill="#ece9e4" stroke="rgba(0,0,0,.15)" stroke-width="2"/><rect x="48" y="52" width="124" height="132" rx="44" fill="#ece9e4" stroke="rgba(0,0,0,.15)" stroke-width="2"/><circle cx="110" cy="104" r="28" fill="#0a0a0a"/><circle cx="110" cy="104" r="14" fill="#f2541b"/><path d="M96 150 Q110 160 124 150" fill="none" stroke="#0a0a0a" stroke-width="5" stroke-linecap="round"/></svg></div>
+              <p class="ab-sketches__n">Boceto 1 - Vectorial</p><p>Redondo y con manos. Simpático, pero no encajaba con una web tan técnica.</p></li>
+            <li><div class="ab-sketches__img"><canvas data-sketch="largo"></canvas></div>
+              <p class="ab-sketches__n">Boceto 2 - Primer pixel art</p><p>El pixel art conectó con el tono de la web. Era demasiado alargado y la mano distraía.</p></li>
+            <li><div class="ab-sketches__img"><canvas data-sketch="cute"></canvas></div>
+              <p class="ab-sketches__n">Boceto 3 - Más compacto</p><p>Más bajito y con coloretes. Quedaba demasiado redondo y dulce.</p></li>
+            <li><div class="ab-sketches__img"><canvas data-sketch="cuadrado"></canvas></div>
+              <p class="ab-sketches__n">Boceto 4 - Cuadrado</p><p>Cerca. Pero el ojo único le quitaba expresividad.</p></li>
+            <li class="is-final"><div class="ab-sketches__img"><canvas data-pxv="bloque"></canvas></div>
+              <p class="ab-sketches__n">Final - Bloque</p><p>Dos ojos con brillo, antena naranja y esquinas recortadas.</p></li>
+          </ol>
+        </section>
+
+        <section class="ab-cs__ch" id="px-c3">
+          <p class="ab-cs__chnum">03 - La decisión</p>
+          <h2>Tres direcciones, una elegida</h2>
+          <p>Antes de cerrar la forma, exploré tres personajes en la misma retícula y con la misma paleta. Elegí el Bloque porque es el más expresivo con menos píxeles y el que mejor convive con el resto de la web.</p>
+          <div class="ab-dirs3">
+            <figure><div><canvas data-pxv="bloque"></canvas></div><figcaption><b>Bloque</b> Elegido</figcaption></figure>
+            <figure><div><canvas data-pxv="pantalla"></canvas></div><figcaption><b>Pantalla</b> Descartado: más frío</figcaption></figure>
+            <figure><div><canvas data-pxv="cursor"></canvas></div><figcaption><b>Cursor</b> Descartado: poca cara</figcaption></figure>
+          </div>
+        </section>
+
+        <section class="ab-cs__ch" id="px-c4">
+          <p class="ab-cs__chnum">04 - El sistema</p>
+          <h2>Un design system de 16 × 16</h2>
+          <p>Para que Pixel se vea siempre igual de nítido, fijé unas reglas mínimas: retícula, paleta, construcción, tamaños y movimiento.</p>
+          <div class="ab-pxsys">
+            <div class="ab-pxsys__pal">
+              <span style="--c:#1d1d1f">Tinta</span><span style="--c:#efece6">Cuerpo</span><span style="--c:#d3cdc3">Sombra</span><span style="--c:#f2541b">Naranja</span><span style="--c:#fbfbfa">Brillo</span>
+            </div>
+            <ul class="ab-pxsys__rules">
+              <li>Contorno de 1 píxel en tinta, siempre cerrado.</li>
+              <li>Sin antialiasing ni curvas: solo celdas.</li>
+              <li>El naranja es solo un acento: la antena.</li>
+              <li>Tamaños en múltiplos enteros: 32, 48, 64 y 96 px.</li>
+              <li>Movimiento por fotogramas, con <code>steps()</code>.</li>
+            </ul>
+          </div>
+          <div class="ab-pxstates">
+            <figure><canvas data-pxstate="idle"></canvas><figcaption>Reposo</figcaption></figure>
+            <figure><canvas data-pxstate="blink"></canvas><figcaption>Parpadeo</figcaption></figure>
+            <figure><canvas data-pxstate="hello"></canvas><figcaption>Saludo</figcaption></figure>
+            <figure><canvas data-pxstate="talk"></canvas><figcaption>Hablando</figcaption></figure>
+            <figure><canvas data-pxstate="think"></canvas><figcaption>Pensando</figcaption></figure>
+            <figure><canvas data-pxstate="sleep"></canvas><figcaption>Dormido</figcaption></figure>
+            <figure class="is-dark"><canvas data-pxstate="idle" data-dark></canvas><figcaption>En oscuro</figcaption></figure>
+          </div>
+        </section>
+
+        <section class="ab-cs__ch" id="px-c5">
+          <p class="ab-cs__chnum">05 - En la web</p>
+          <h2>Cómo se comporta</h2>
+          <ul class="ab-cs__list">
+            <li><strong>Aparece al pasar el hero</strong> y saluda con dos saltitos. Antes no molesta.</li>
+            <li><strong>Cinco preguntas</strong> pensadas para quien contrata: qué me diferencia, cómo trabajo, cómo uso la IA, accesibilidad y cómo seguir.</li>
+            <li><strong>Se cierra al pulsar fuera</strong> o con Esc. Solo se cierra la burbuja: Pixel se queda.</li>
+            <li><strong>Sobre el bloque oscuro</strong> gana un contorno claro y un halo para no perderse.</li>
+            <li><strong>En móvil</strong> se puede ocultar desde la burbuja, porque la pantalla es pequeña.</li>
+            <li><strong>Respeta "reducir movimiento"</strong>: si el sistema lo pide, no anima nada.</li>
+          </ul>
+        </section>
+
+        <section class="ab-cs__ch" id="px-c6">
+          <p class="ab-cs__chnum">06 - Cómo trabajé con IA</p>
+          <h2>Yo decido, la IA acelera</h2>
+          <div class="ab-split">
+            <div><p class="ab-split__h">Lo decidí yo</p><p>La idea, el tono, la forma final, qué responde y cuándo aparece. También qué descartar en cada boceto.</p></div>
+            <div><p class="ab-split__h">Lo aceleró la IA</p><p>Dibujar variantes en minutos, montar la hoja de estados y escribir el código. Con Claude iteré el diseño y con Claude Code lo integré en la web.</p></div>
+          </div>
+        </section>
+
+        <section class="ab-cs__ch" id="px-c7">
+          <p class="ab-cs__chnum">07 - Qué aprendí</p>
+          <h2>Menos píxeles, más decisiones</h2>
+          <p>En 16 × 16 cada píxel cuenta: mover un ojo una celda cambia la expresión entera. Me obligó a decidir rápido y a justificar cada cambio, igual que en un producto. Y confirmó algo que aplico en mi trabajo: la IA es más útil cuando sabes exactamente qué quieres probar.</p>
+        </section>
+      </div>
+    </div>
+
+    <!-- 6. Siguiente proyecto -->
+    <a class="ab-cs__next" href="/proyectos/compilador-prompts/">
+      <span class="ab-cs__next-l">Siguiente proyecto</span>
+      <span class="ab-cs__next-t">Compilador de prompts para Figma Agent <span aria-hidden="true">→</span></span>
+    </a>
+  </div>
   </main>
 </Base>

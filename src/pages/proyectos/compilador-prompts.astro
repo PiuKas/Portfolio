@@ -1,0 +1,101 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base
+  title="Compilador de prompts para Figma Agent - Andrea Blanco"
+  description="Un skill propio que convierte lo que quiero hacer en Figma, dicho con mis palabras, en un prompt preciso y listo para pegar en la IA de Figma."
+>
+  <main class="ab-cs is-enter">
+<div class="ab-container">
+    <a class="ab-cs__back" href="/#proyectos">← Todos los proyectos</a>
+
+    <header class="ab-cs__head">
+      <p class="ab-cs__eyebrow">Herramienta propia - Construida con IA - 2026</p>
+      <h1 class="ab-cs__title">Compilador de prompts para Figma Agent<span class="ab-dot">.</span></h1>
+      <p class="ab-cs__lede">Un skill propio que convierte lo que quiero hacer en Figma, dicho con mis palabras, en un prompt preciso y listo para pegar en la IA de Figma.</p>
+    </header>
+
+    <div class="ab-cs__cover ab-prc">
+      <div class="ab-prc__in"><p class="ab-prc__l">Lo que pido</p><p class="ab-prc__q">"Crea una variante deshabilitada del botón principal."</p></div>
+      <div class="ab-prc__arrow" aria-hidden="true">→</div>
+      <div class="ab-code-block ab-prc__out" role="img" aria-label="Ejemplo de prompt compilado">
+        <div class="ab-code-block__bar"><span class="ab-code-block__dot" style="background:var(--ab-dot-red)"></span><span class="ab-code-block__dot" style="background:var(--ab-dot-yellow)"></span><span class="ab-code-block__dot" style="background:var(--ab-dot-green)"></span><span class="ab-code-block__filename">prompt compilado - ejemplo</span></div>
+<pre aria-hidden="true"><code><span class="co"># tarea: variante de componente</span>
+<span class="cv">Componente:</span> <span class="cs">botón principal</span>
+<span class="cv">Variante nueva:</span> <span class="cs">estado deshabilitado</span>
+<span class="cm">- usa las variables de color existentes</span>
+<span class="cm">- mantén auto layout y nombres de capas</span>
+<span class="cm">- revisa el contraste del texto</span></code></pre>
+      </div>
+    </div>
+
+    <dl class="ab-cs__meta">
+      <div><dt>Mi rol</dt><dd>Detectar el problema, definir la herramienta y construirla</dd></div>
+      <div><dt>Herramientas</dt><dd>Claude, skills de Claude, Figma Agent</dd></div>
+      <div><dt>Usuaria</dt><dd>Yo, en mi día a día con Figma</dd></div>
+      <div><dt>Estado</dt><dd class="ab-case__status">En uso</dd></div>
+    </dl>
+
+    <div class="ab-case__cards ab-cs__cards">
+      <div class="ab-case__card"><h4>El reto</h4><p>Uso Figma Agent a diario y el resultado depende de cómo esté escrito el prompt. Quería dejar de escribirlos a mano cada vez.</p></div>
+      <div class="ab-case__card ab-case__card--do"><h4>Qué hice</h4><p>Un skill que traduce la petición a un prompt estructurado, con plantillas por tipo de tarea y el contexto del design system.</p></div>
+      <div class="ab-case__card"><h4>Resultado</h4><p>Lo pulí con el uso, probándolo con prompts reales. Ahora la mayoría de las tareas salen bien a la primera.</p></div>
+    </div>
+
+    <div class="ab-cs__layout">
+      <nav class="ab-cs__toc" aria-label="Capítulos">
+        <ol>
+          <li><button type="button" data-go="pr-c1"><span>01</span> El problema</button></li>
+          <li><button type="button" data-go="pr-c2"><span>02</span> Qué cubre</button></li>
+          <li><button type="button" data-go="pr-c3"><span>03</span> Cómo lo construí</button></li>
+          <li><button type="button" data-go="pr-c4"><span>04</span> Siguientes pasos</button></li>
+        </ol>
+      </nav>
+
+      <div class="ab-cs__chapters">
+        <section class="ab-cs__ch" id="pr-c1">
+          <p class="ab-cs__chnum">01 - El problema</p>
+          <h2>Un prompt vago, un resultado vago</h2>
+          <p>Figma Agent forma parte de mi trabajo diario. Lo que devuelve depende mucho de cómo se le pida: qué componente, qué variables usar y qué no tocar.</p>
+          <p>Escribir esas instrucciones a mano cada vez era lento y poco constante. Lo vi como un problema de producto pequeño, con una usuaria muy clara: yo.</p>
+        </section>
+
+        <section class="ab-cs__ch" id="pr-c2">
+          <p class="ab-cs__chnum">02 - Qué cubre</p>
+          <h2>Las tareas que más repito</h2>
+          <ul class="ab-cs__list">
+            <li><strong>Componentes y variantes</strong>: crearlos o editarlos sin romper lo que ya existe.</li>
+            <li><strong>Variables y tokens</strong>: aplicarlos en lugar de valores sueltos.</li>
+            <li><strong>Pantallas</strong>: generarlas o adaptarlas sobre el design system.</li>
+            <li><strong>Capas</strong>: reorganizarlas y renombrarlas con un criterio común.</li>
+            <li><strong>Documentación</strong> de componentes.</li>
+            <li><strong>Depuración</strong>: cuando un prompt no da lo esperado, revisarlo y corregirlo.</li>
+          </ul>
+        </section>
+
+        <section class="ab-cs__ch" id="pr-c3">
+          <p class="ab-cs__chnum">03 - Cómo lo construí</p>
+          <h2>Yo defino, la IA compila</h2>
+          <div class="ab-split">
+            <div><p class="ab-split__h">Lo decidí yo</p><p>Qué tareas cubre, cómo se estructura cada prompt y qué contexto del design system necesita para funcionar bien.</p></div>
+            <div><p class="ab-split__h">Lo aceleró la IA</p><p>Redactar y ordenar las plantillas, y convertir cada petición en el prompt final en segundos.</p></div>
+          </div>
+          <p>Después de usarlo con varios prompts, ajusté las plantillas hasta que dejó de necesitar correcciones en la mayoría de tareas.</p>
+          <p>Sigue la misma idea que mi skill anterior para pasar diseños de Figma a WordPress: automatizar lo repetitivo para dedicar el tiempo a decidir.</p>
+        </section>
+
+        <section class="ab-cs__ch" id="pr-c4">
+          <p class="ab-cs__chnum">04 - Siguientes pasos</p>
+          <h2>Darle más contexto</h2>
+          <p>El siguiente paso es completar el bloque de contexto del design system: colecciones de variables, convenciones de nombres y componentes base. Cuanto más contexto tiene, mejor prompt devuelve.</p>
+        </section>
+      </div>
+    </div>
+
+    <a class="ab-cs__next" href="/proyectos/este-portfolio/">
+      <span class="ab-cs__next-l">Siguiente proyecto</span>
+      <span class="ab-cs__next-t">Este portfolio <span aria-hidden="true">→</span></span>
+    </a>
+  </div>
+  </main>
+</Base>

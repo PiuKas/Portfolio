@@ -1,6 +1,6 @@
 # andreablancolopez.com
 
-Portfolio de Andrea Blanco, Product Designer. Web estática hecha con [Astro](https://astro.build) a partir del rediseño que diseñé en un simulador y del design system del portfolio.
+Portfolio de Andrea Blanco, Product Builder. Web estática hecha con [Astro](https://astro.build) a partir del rediseño que diseñé en un simulador y del design system del portfolio.
 
 ## Cómo está hecha
 

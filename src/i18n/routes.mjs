@@ -12,8 +12,8 @@ export const CV = {
 export const PAGES = {
   '/': {
     en: '/en/',
-    title: 'Andrea Blanco - Product Designer',
-    description: 'Product Designer with 4+ years of experience. I design products end to end: from the problem to the design system and the build with development.',
+    title: 'Andrea Blanco - Product Builder',
+    description: 'Product Builder in B2B SaaS. I find where a product or a team gets stuck and build the way to remove that friction, from the problem to production, with AI as part of the process.',
   },
   '/proyectos/pixel/': {
     en: '/en/projects/pixel/',
@@ -23,7 +23,12 @@ export const PAGES = {
   '/proyectos/este-portfolio/': {
     en: '/en/projects/this-portfolio/',
     title: 'This portfolio - Andrea Blanco',
-    description: 'How I went from a website that no longer represented me to a Product Designer portfolio, designed and built by iterating with Claude.',
+    description: 'How I went from a WordPress site that no longer represented me to a portfolio I defined, built and deployed myself with Claude Code, Astro and Netlify.',
+  },
+  '/proyectos/compilador-prompts/': {
+    en: '/en/projects/prompt-compiler/',
+    title: 'Prompt compiler for Figma Agent - Andrea Blanco',
+    description: 'A skill I built to turn a design request in plain language into a ready-to-paste prompt for Figma Agent, so most tasks work on the first try.',
   },
   '/proyectos/web-entrenador-combate/': {
     en: '/en/projects/combat-coach-website/',

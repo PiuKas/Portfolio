@@ -73,9 +73,9 @@
   var hero=document.querySelector('.ab-hero'), reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches, appeared=false;
   var HELLO='¡Hola! Soy Pixel. Si tienes prisa, te cuento en 30 segundos por qué Andrea encaja en tu equipo.';
   var A={
-    why:'Une diseño y técnica. Piensa en el usuario y en el producto, y a la vez entiende cómo se construye: domina HTML y CSS, así que lo que diseña es realista y desarrollo lo recibe sin sorpresas. Además es ordenada y disciplinada: archivos limpios, componentes documentados y decisiones explicadas.',
-    dev:'Define el problema con Producto, prototipa para validar antes de comprometer horas de desarrollo y acompaña la implementación en Scrum. Habla el idioma de los dos lados.',
-    ai:'Para quitarse trabajo mecánico: prototipos HTML que se pueden probar y un skill propio que pasa de Figma a WordPress. Las decisiones de diseño las toma ella.',
+    why:'Plantea la solución y la lleva hasta el final. Entiende qué necesita el usuario, lo prototipa hasta que funciona y lo entrega con el detalle técnico que desarrollo necesita. Además es ordenada y disciplinada: archivos limpios, componentes documentados y decisiones explicadas.',
+    dev:'Participa desde antes de que el producto exista. Trabaja de la mano de Producto, busca lo que no se ha valorado y puede sumar, se apoya en Frontend para las dudas técnicas, acompaña la implementación con metodología Agile y revisa que el resultado cumple los objetivos.',
+    ai:'Construye con ella: skills propios como su compilador de prompts para Figma Agent, y webs como esta, hecha en Astro con Claude Code. También la usa para revisar entregas y automatizar procesos. Las decisiones de producto las toma ella.',
     a11y:'Para Andrea es el pilar del diseño: la tiene en cuenta desde el primer boceto, no al final. Auditó el sistema de color componente a componente con criterios WCAG y rediseñó los formularios con etiquetas claras y foco visible. Un diseño que no puede usar todo el mundo está sin terminar.',
     next:'Escríbele a <a href="/#contacto">andreapwyt@gmail.com</a> o <a href="/cv/Andrea-Blanco-Lopez-CV-ES.pdf" download>descarga su CV</a>. También la encuentras en LinkedIn, en el pie de página.'
   };

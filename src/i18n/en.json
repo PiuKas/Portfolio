@@ -1535,7 +1535,7 @@
   ],
   "Escríbele a andreapwyt@gmail.com o descarga su CV. También la encuentras en LinkedIn, en el pie de página.": [
    "Escríbele a <a href=\"/#contacto\">andreapwyt@gmail.com</a> o <a href=\"/#sobre-mi\">descarga su CV</a>. También la encuentras en LinkedIn, en el pie de página.",
-   "Email her at <a href=\"/#contacto\">andreapwyt@gmail.com</a> or <a href=\"/cv/Andrea-Blanco-Lopez-CV-ES.pdf\" download>download her CV</a>. You can also find her on LinkedIn, in the footer."
+   "Email her at <a href=\"/#contacto\">andreapwyt@gmail.com</a> or <a href=\"/#sobre-mi\">download her CV</a>. You can also find her on LinkedIn, in the footer."
   ],
   "Elige una pregunta.": [
    "Elige una pregunta.",
@@ -1572,44 +1572,1424 @@
   "Dibujar variantes en minutos, montar la hoja de estados y escribir el código. Con Claude iteré el diseño y con Claude Code lo integré en la web.": [
    "Dibujar variantes en minutos, montar la hoja de estados y escribir el código. Con Claude iteré el diseño y con Claude Code lo integré en la web.",
    "Drawing variants in minutes, putting together the state sheet and writing the code. I iterated the design with Claude and built it into the site with Claude Code."
+  ],
+  "Product Builder": [
+   "Product Builder",
+   "Product Builder"
+  ],
+  "Product Builder - SaaS B2B - IA aplicada": [
+   "Product Builder - SaaS B2B - IA aplicada",
+   "Product Builder - B2B SaaS - Applied AI"
+  ],
+  "Qué construyo con IA": [
+   "Qué construyo con IA",
+   "What I build with AI"
+  ],
+  "01 Rediseño del front Ownership de principio a fin": [
+   "<b>01</b> Rediseño del front <span>Ownership de principio a fin</span>",
+   "<b>01</b> Front-end redesign <span>End-to-end ownership</span>"
+  ],
+  "02 Producto SaaS Evolución de 5 productos internos": [
+   "<b>02</b> Producto SaaS <span>Evolución de 5 productos internos</span>",
+   "<b>02</b> SaaS products <span>Evolving 5 internal products</span>"
+  ],
+  "Replantear la compra de entradas de todos los clientes": [
+   "Replantear la compra de entradas de todos los clientes",
+   "Rethinking ticket purchase for every client"
+  ],
+  "Planteé y llevé de principio a fin la nueva web de venta de entradas que usan todos los clientes de Clorian: desde qué había que resolver hasta un sistema que desarrollo convierte en código.": [
+   "Planteé y llevé de principio a fin la nueva web de venta de entradas que usan todos los clientes de Clorian: desde qué había que resolver hasta un sistema que desarrollo convierte en código.",
+   "I shaped and owned, end to end, the new ticketing website every Clorian client uses: from what needed solving to a system development turns straight into code."
+  ],
+  "Conversión en móvil": [
+   "Conversión en móvil",
+   "Mobile conversion"
+  ],
+  "Ownership completo del proyecto": [
+   "Ownership completo del proyecto",
+   "Full project ownership"
+  ],
+  "Solución, design system y handoff": [
+   "Solución, design system y handoff",
+   "Solution, design system and handoff"
+  ],
+  "El problema": [
+   "El problema",
+   "The problem"
+  ],
+  "Una sola base para todas las marcas, que fuera accesible y convirtiera mejor en móvil.": [
+   "Una sola base para todas las marcas, que fuera accesible y convirtiera mejor en móvil.",
+   "One base for every brand, accessible and converting better on mobile."
+  ],
+  "Menos incidencias y un handoff del que desarrollo genera componentes y variables directamente.": [
+   "Menos incidencias y un handoff del que desarrollo genera componentes y variables directamente.",
+   "Fewer support issues and a handoff development generates components and variables from directly."
+  ],
+  "También soy la responsable de diseño de los SaaS de Clorian. Ya existían cuando llegué: detecto lo que les falta y los hago evolucionar.": [
+   "También soy la responsable de diseño de los SaaS de Clorian. Ya existían cuando llegué: detecto lo que les falta y los hago evolucionar.",
+   "I also own design for Clorian's SaaS products. They already existed when I joined: I spot what they're missing and keep them evolving."
+  ],
+  "Planteé, diseñé y construí con IA la mascota de esta web.": [
+   "Planteé, diseñé y construí con IA la mascota de esta web.",
+   "I shaped, designed and built this site's mascot with AI."
+  ],
+  "Proyecto propio - De la idea a la demo - 2026": [
+   "Proyecto propio - De la idea a la demo - 2026",
+   "Personal project - From idea to demo - 2026"
+  ],
+  "Una landing pensada para convertir visitas en conversaciones por WhatsApp.": [
+   "Una landing pensada para convertir visitas en conversaciones por WhatsApp.",
+   "A landing page built to turn visits into WhatsApp conversations."
+  ],
+  "Responsable de diseño de todos los productos internos, a tiempo completo.": [
+   "Responsable de diseño de todos los productos internos, a tiempo completo.",
+   "I own design for all our internal products, full time."
+  ],
+  "Del problema a la entrega.": [
+   "Del problema a la entrega<span class=\"ab-dot\">.</span>",
+   "From problem to handoff<span class=\"ab-dot\">.</span>"
+  ],
+  "Análisis de necesidades": [
+   "Análisis de necesidades",
+   "Needs analysis"
+  ],
+  "Casos límite": [
+   "Casos límite",
+   "Edge cases"
+  ],
+  "Agentes": [
+   "Agentes",
+   "Agents"
+  ],
+  "Automatización": [
+   "Automatización",
+   "Automation"
+  ],
+  "Prototipar hasta que funcione": [
+   "Prototipar hasta que funcione",
+   "Prototyping until it works"
+  ],
+  "Vibe coding": [
+   "Vibe coding",
+   "Vibe coding"
+  ],
+  "Plantear": [
+   "Plantear",
+   "Shape"
+  ],
+  "IA aplicada a producto": [
+   "IA aplicada a producto",
+   "AI applied to product"
+  ],
+  "Uso la IA para construir, no solo para diseñar.": [
+   "Uso la IA para construir, no solo para diseñar<span class=\"ab-dot\">.</span>",
+   "I use AI to build, not just to design<span class=\"ab-dot\">.</span>"
+  ],
+  "En Clorian y en mis proyectos propios he construido:": [
+   "En Clorian y en mis proyectos propios he construido:",
+   "At Clorian and in my own projects I've built:"
+  ],
+  "¿Qué la diferencia de otros perfiles de producto?": [
+   "¿Qué la diferencia de otros perfiles de producto?",
+   "What sets her apart from other product people?"
+  ],
+  "Plantea la solución y la lleva hasta el final. Entiende qué necesita el usuario, lo prototipa hasta que funciona y lo entrega con el detalle técnico que desarrollo necesita. Además es ordenada y disciplinada: archivos limpios, componentes documentados y decisiones explicadas.": [
+   "Plantea la solución y la lleva hasta el final. Entiende qué necesita el usuario, lo prototipa hasta que funciona y lo entrega con el detalle técnico que desarrollo necesita. Además es ordenada y disciplinada: archivos limpios, componentes documentados y decisiones explicadas.",
+   "She shapes the solution and takes it all the way. She understands what users need, prototypes it until it works and hands it off with the technical detail development needs. She's also organised and disciplined: clean files, documented components and explained decisions."
+  ],
+  "Product Builder - SaaS B2B": [
+   "Product Builder - SaaS B2B",
+   "Product Builder - B2B SaaS"
+  ],
+  "03 Cómo trabajo Con producto y desarrollo": [
+   "<b>03</b> Cómo trabajo <span>Con producto y desarrollo</span>",
+   "<b>03</b> How I work <span>With product and development</span>"
+  ],
+  "03 Cómo trabajo en Clorian": [
+   "<span class=\"ab-clorian__num\">03</span> Cómo trabajo en Clorian",
+   "<span class=\"ab-clorian__num\">03</span> How I work at Clorian"
+  ],
+  "Trabajo mano a mano con las product owners y con el equipo de frontend. Ellas traen la necesidad; yo la convierto en una solución que se puede construir.": [
+   "Trabajo mano a mano con las product owners y con el equipo de frontend. Ellas traen la necesidad; yo la convierto en una solución que se puede construir.",
+   "I work hand in hand with the product owners and the front-end team. They bring the need; I turn it into a solution that can be built."
+  ],
+  "Diseño sobre el sistema": [
+   "Diseño sobre el sistema",
+   "I design on the system"
+  ],
+  "Todo parte del design system: componentes, variables de color y tipografía y auto layout. Desarrollo genera componentes y variables directamente del archivo.": [
+   "Todo parte del design system: componentes, variables de color y tipografía y auto layout. Desarrollo genera componentes y variables directamente del archivo.",
+   "Everything starts from the design system: components, color and type variables, and auto layout. Development generates components and variables straight from the file."
+  ],
+  "Accesibilidad desde el primer boceto": [
+   "Accesibilidad desde el primer boceto",
+   "Accessibility from the first sketch"
+  ],
+  "Color auditado con criterios WCAG y formularios con etiquetas claras y foco visible. No es una revisión que se hace al final.": [
+   "Color auditado con criterios WCAG y formularios con etiquetas claras y foco visible. No es una revisión que se hace al final.",
+   "Color audited against WCAG criteria and forms with clear labels and visible focus. It's not a check done at the end."
+  ],
+  "Acompaño hasta producción": [
+   "Acompaño hasta producción",
+   "I follow through to production"
+  ],
+  "Sigo la implementación con metodología Agile, reviso lo que se construye y dejo las decisiones documentadas para que el equipo no dependa de mí.": [
+   "Sigo la implementación con metodología Agile, reviso lo que se construye y dejo las decisiones documentadas para que el equipo no dependa de mí.",
+   "I follow the build in an Agile team, review what gets built and leave decisions documented so the team doesn't depend on me."
+  ],
+  "Planteé y llevé de principio a fin la nueva web de venta de entradas que usan todos los clientes de Clorian: desde qué había que resolver hasta un sistema que desarrollo convierte en código. Lo hice de la mano del equipo de Producto y apoyándome en Frontend para las dudas técnicas.": [
+   "Planteé y llevé de principio a fin la nueva web de venta de entradas que usan todos los clientes de Clorian: desde qué había que resolver hasta un sistema que desarrollo convierte en código. Lo hice de la mano del equipo de Producto y apoyándome en Frontend para las dudas técnicas.",
+   "I shaped and owned, end to end, the new ticketing website every Clorian client uses: from what needed solving to a system development turns straight into code. I did it hand in hand with the Product team, leaning on Front-end for technical questions."
+  ],
+  "Aporto lo que no se ha valorado": [
+   "Aporto lo que no se ha valorado",
+   "I bring what hasn't been considered"
+  ],
+  "Antes de diseñar busco qué estados, casos límite o funcionalidades no se han tenido en cuenta y pueden sumar. Ahora lo contrasto también con agentes de IA, para que la entrega llegue más completa.": [
+   "Antes de diseñar busco qué estados, casos límite o funcionalidades no se han tenido en cuenta y pueden sumar. Ahora lo contrasto también con agentes de IA, para que la entrega llegue más completa.",
+   "Before designing I look for states, edge cases or functionality that haven't been considered and could add value. Now I also cross-check it with AI agents, so the handoff arrives more complete."
+  ],
+  "Responsable digital": [
+   "Responsable digital",
+   "Digital lead"
+  ],
+  "Propuse la nueva web del club e hice de puente con la agencia que la diseñaba: convertía las necesidades del club y de los socios en specs y en el orden de la información.": [
+   "Propuse la nueva web del club e hice de puente con la agencia que la diseñaba: convertía las necesidades del club y de los socios en specs y en el orden de la información.",
+   "I proposed the club's new website and was the bridge with the agency designing it: I turned the club's and members' needs into specs and information architecture."
+  ],
+  "Producto digital - 2023": [
+   "Producto digital - 2023",
+   "Digital product - 2023"
+  ],
+  "Propuse la nueva web y la definí con la agencia: specs y orden de la información.": [
+   "Propuse la nueva web y la definí con la agencia: specs y orden de la información.",
+   "I proposed the new website and defined it with the agency: specs and information architecture."
+  ],
+  "Participa desde antes de que el producto exista. Trabaja de la mano de Producto, busca lo que no se ha valorado y puede sumar, se apoya en Frontend para las dudas técnicas, acompaña la implementación con metodología Agile y revisa que el resultado cumple los objetivos.": [
+   "Participa desde antes de que el producto exista. Trabaja de la mano de Producto, busca lo que no se ha valorado y puede sumar, se apoya en Frontend para las dudas técnicas, acompaña la implementación con metodología Agile y revisa que el resultado cumple los objetivos.",
+   "She's involved from before the product exists. She works hand in hand with Product, looks for what hasn't been considered and could add value, leans on Front-end for technical questions, follows the build in an Agile team and checks the result meets the goals."
+  ],
+  "Las decisiones de producto las tomo yo. La IA me ayuda a explorar más opciones y a fundamentar mejor cada decisión.": [
+   "Las decisiones de producto las tomo yo. La IA me ayuda a explorar más opciones y a fundamentar mejor cada decisión.",
+   "I make the product decisions. AI helps me explore more options and ground every decision better."
+  ],
+  "Definir": [
+   "Definir",
+   "Define"
+  ],
+  "Medir": [
+   "Medir",
+   "Measure"
+  ],
+  "Construir": [
+   "Construir",
+   "Build"
+  ],
+  "Evaluar": [
+   "Evaluar",
+   "Evaluate"
+  ],
+  "Cómo trabajo": [
+   "Cómo trabajo",
+   "How I work"
+  ],
+  "Clorian, en detalle": [
+   "Clorian, en detalle",
+   "Clorian, in detail"
+  ],
+  "(01) - PROCESO": [
+   "<span class=\"ab-num-accent\">(01)</span> - PROCESO",
+   "<span class=\"ab-num-accent\">(01)</span> - PROCESS"
+  ],
+  "(02) - IA aplicada a producto": [
+   "<span class=\"ab-num-accent\">(02)</span> - <span>IA aplicada a producto</span>",
+   "<span class=\"ab-num-accent\">(02)</span> - <span>AI applied to product</span>"
+  ],
+  "(03) - EXPERIENCIA": [
+   "<span class=\"ab-num-accent\">(03)</span> - EXPERIENCIA",
+   "<span class=\"ab-num-accent\">(03)</span> - EXPERIENCE"
+  ],
+  "(04) - QUÉ HAGO": [
+   "<span class=\"ab-num-accent\">(04)</span> - QUÉ HAGO",
+   "<span class=\"ab-num-accent\">(04)</span> - WHAT I DO"
+  ],
+  "(05) - SOBRE MÍ": [
+   "<span class=\"ab-num-accent\">(05)</span> - SOBRE MÍ",
+   "<span class=\"ab-num-accent\">(05)</span> - ABOUT ME"
+  ],
+  "Del problema al producto.": [
+   "Del problema al producto<span class=\"ab-dot\">.</span>",
+   "From problem to product<span class=\"ab-dot\">.</span>"
+  ],
+  "Desde antes de que el producto exista: defino el problema, los objetivos y los criterios de éxito, analizo qué necesita el usuario y propongo la solución.": [
+   "Desde antes de que el producto exista: defino el problema, los objetivos y los criterios de éxito, analizo qué necesita el usuario y propongo la solución.",
+   "From before the product exists: I define the problem, the goals and the success criteria, analyse what users need and propose the solution."
+  ],
+  "Definir el producto": [
+   "Definir el producto",
+   "Defining the product"
+  ],
+  "Construir con IA": [
+   "Construir con IA",
+   "Building with AI"
+  ],
+  "Prototipos funcionales, no solo pantallas: en HTML con IA o en Figma. Se pueden usar y explican el producto mejor que una especificación.": [
+   "Prototipos funcionales, no solo pantallas: en HTML con IA o en Figma. Se pueden usar y explican el producto mejor que una especificación.",
+   "Working prototypes, not just screens: in HTML with AI or in Figma. You can use them and they explain the product better than a spec."
+  ],
+  "Flujos interactivos": [
+   "Flujos interactivos",
+   "Interactive flows"
+  ],
+  "Diseño y handoff": [
+   "Diseño y handoff",
+   "Design and handoff"
+  ],
+  "una herramienta más": [
+   "una herramienta más",
+   "one more tool"
+  ],
+  "Detalle de la solución: antes y después": [
+   "Detalle de la solución: antes y después",
+   "Solution detail: before and after"
+  ],
+  "Pixel art de 16 × 16, HTML y JavaScript generado con IA": [
+   "Pixel art de 16 × 16, HTML y JavaScript generado con IA",
+   "16 × 16 pixel art, HTML and AI-generated JavaScript"
+  ],
+  "Un personaje original en pixel art, sus estados y un pequeño design system. Lo diseñé iterando con Claude y lo construí en HTML y JavaScript generado con IA, bajo mi dirección.": [
+   "Un personaje original en pixel art, sus estados y un pequeño design system. Lo diseñé iterando con Claude y lo construí en HTML y JavaScript generado con IA, bajo mi dirección.",
+   "An original pixel-art character, its states and a small design system. I designed it iterating with Claude and built it in HTML and AI-generated JavaScript, under my direction."
+  ],
+  "Mi rol en la empresa creció y mi trabajo se fue moviendo del diseño al producto: definir, priorizar y construir con IA. Web, CV y LinkedIn tenían que contar lo mismo: Product Builder.": [
+   "Mi rol en la empresa creció y mi trabajo se fue moviendo del diseño al producto: definir, priorizar y construir con IA. Web, CV y LinkedIn tenían que contar lo mismo: Product Builder.",
+   "My role grew and my work kept shifting from design to product: defining, prioritising and building with AI. Website, CV and LinkedIn had to tell the same story: Product Builder."
+  ],
+  "Desde 2022 construyendo producto digital.": [
+   "Desde 2022 construyendo producto digital.",
+   "Building digital products since 2022."
+  ],
+  "En producción desde septiembre de 2026. Menos incidencias y un handoff del que desarrollo genera componentes y variables directamente.": [
+   "En producción desde septiembre de 2026. Menos incidencias y un handoff del que desarrollo genera componentes y variables directamente.",
+   "Live since September 2026. Fewer support issues and a handoff development generates components and variables from directly."
+  ],
+  "Pruebas que puedes ver ahora": [
+   "Pruebas que puedes ver ahora",
+   "Proof you can see right now"
+  ],
+  "Cómo construí este portfolio con IA →": [
+   "Cómo construí este portfolio con IA →",
+   "How I built this portfolio with AI →"
+  ],
+  "Pixel, el asistente de esta web →": [
+   "Pixel, el asistente de esta web →",
+   "Pixel, this site's assistant →"
+  ],
+  "El código, en GitHub ↗": [
+   "El código, en GitHub ↗",
+   "The code, on GitHub ↗"
+  ],
+  "Proyecto propio - Construido con IA - 2026": [
+   "Proyecto propio - Construido con IA - 2026",
+   "Personal project - Built with AI - 2026"
+  ],
+  "Mi web planteada como un producto: decisiones, arquitectura en Astro y construcción con Claude Code.": [
+   "Mi web planteada como un producto: decisiones, arquitectura en Astro y construcción con Claude Code.",
+   "My website treated as a product: decisions, an Astro architecture and a build with Claude Code."
+  ],
+  "Planteé, construí y publiqué mi propia web como un producto: con un problema claro, decisiones técnicas propias y la IA escribiendo el código bajo mi dirección.": [
+   "Planteé, construí y publiqué mi propia web como un producto: con un problema claro, decisiones técnicas propias y la IA escribiendo el código bajo mi dirección.",
+   "I shaped, built and shipped my own website as a product: a clear problem, my own technical decisions and AI writing the code under my direction."
+  ],
+  "Producto, contenido, diseño y dirección de la implementación": [
+   "Producto, contenido, diseño y dirección de la implementación",
+   "Product, content, design and implementation lead"
+  ],
+  "Claude, Claude Code, Astro, GitHub, Netlify": [
+   "Claude, Claude Code, Astro, GitHub, Netlify",
+   "Claude, Claude Code, Astro, GitHub, Netlify"
+  ],
+  "Redefinir el mensaje, decidir la arquitectura (de WordPress a Astro), documentar un design system desde el código e iterar la web en un simulador.": [
+   "Redefinir el mensaje, decidir la arquitectura (de WordPress a Astro), documentar un design system desde el código e iterar la web en un simulador.",
+   "Redefine the message, decide the architecture (from WordPress to Astro), document a design system from the code and iterate the site in a simulator."
+  ],
+  "Una web estática en Astro, con el código público en GitHub y publicada en Netlify, que mantengo yo con Claude Code.": [
+   "Una web estática en Astro, con el código público en GitHub y publicada en Netlify, que mantengo yo con Claude Code.",
+   "A static Astro site, with public code on GitHub and deployed on Netlify, that I maintain myself with Claude Code."
+  ],
+  "Mi primera web era de otra etapa. Me presentaba como un perfil generalista, con proyectos muy distintos entre sí.": [
+   "Mi primera web era de otra etapa. Me presentaba como un perfil generalista, con proyectos muy distintos entre sí.",
+   "My first website belonged to another stage. It presented me as a generalist, with very different projects side by side."
+  ],
+  "05 Las decisiones": [
+   "<span>05</span> Las decisiones",
+   "<span>05</span> The decisions"
+  ],
+  "06 Qué cambió": [
+   "<span>06</span> Qué cambió",
+   "<span>06</span> What changed"
+  ],
+  "07 Lo que quité": [
+   "<span>07</span> Lo que quité",
+   "<span>07</span> What I removed"
+  ],
+  "08 Qué aprendí": [
+   "<span>08</span> Qué aprendí",
+   "<span>08</span> What I learned"
+  ],
+  "06 - Qué cambió": [
+   "06 - Qué cambió",
+   "06 - What changed"
+  ],
+  "07 - Lo que quité": [
+   "07 - Lo que quité",
+   "07 - What I removed"
+  ],
+  "08 - Qué aprendí": [
+   "08 - Qué aprendí",
+   "08 - What I learned"
+  ],
+  "05 - Las decisiones": [
+   "05 - Las decisiones",
+   "05 - The decisions"
+  ],
+  "Decidir como en cualquier producto": [
+   "Decidir como en cualquier producto",
+   "Deciding like in any product"
+  ],
+  "Antes de construir nada me hice las mismas preguntas que en un producto: quién la usa, quién la mantiene y qué tiene que demostrar.": [
+   "Antes de construir nada me hice las mismas preguntas que en un producto: quién la usa, quién la mantiene y qué tiene que demostrar.",
+   "Before building anything I asked the same questions as for any product: who uses it, who maintains it and what it has to prove."
+  ],
+  "De WordPress a Astro: una web que solo edito yo, y siempre con Claude, no necesitaba un gestor de contenidos. Estática es más rápida y más fácil de mantener.": [
+   "<strong>De WordPress a Astro</strong>: una web que solo edito yo, y siempre con Claude, no necesitaba un gestor de contenidos. Estática es más rápida y más fácil de mantener.",
+   "<strong>From WordPress to Astro</strong>: a site only I edit, always with Claude, didn't need a CMS. Static is faster and easier to maintain."
+  ],
+  "El código, en GitHub: es público y es lo que me piden en los procesos de selección. La web también enseña cómo trabajo.": [
+   "<strong>El código, en GitHub</strong>: es público y es lo que me piden en los procesos de selección. La web también enseña cómo trabajo.",
+   "<strong>The code, on GitHub</strong>: it's public and it's what hiring processes ask me for. The site also shows how I work."
+  ],
+  "Publicación en Netlify: conectada al repositorio, cada cambio que apruebo sale a producción sin pasos manuales.": [
+   "<strong>Publicación en Netlify</strong>: conectada al repositorio, cada cambio que apruebo sale a producción sin pasos manuales.",
+   "<strong>Deployed on Netlify</strong>: connected to the repository, every change I approve goes live with no manual steps."
+  ],
+  "Un simulador antes que producción: ningún cambio llega a la web real sin probarlo antes en una réplica.": [
+   "<strong>Un simulador antes que producción</strong>: ningún cambio llega a la web real sin probarlo antes en una réplica.",
+   "<strong>A simulator before production</strong>: no change reaches the live site without being tried first in a replica."
+  ],
+  "Seis pasos, del problema al producto": [
+   "Seis pasos, del problema al producto",
+   "Six steps, from problem to product"
+  ],
+  "Intro y Pixel": [
+   "Intro y Pixel",
+   "Intro and Pixel"
+  ],
+  "El cursor y la selección de Figma del titular: hacían que la web se leyera como de diseño, no de producto.": [
+   "<strong>El cursor y la selección de Figma</strong> del titular: hacían que la web se leyera como de diseño, no de producto.",
+   "<strong>The Figma cursor and selection</strong> on the headline: they made the site read as design, not product."
+  ],
+  "Compilador de prompts para Figma Agent →": [
+   "Compilador de prompts para Figma Agent <span aria-hidden=\"true\">→</span>",
+   "Prompt compiler for Figma Agent <span aria-hidden=\"true\">→</span>"
+  ],
+  "Herramienta propia - Construida con IA - 2026": [
+   "Herramienta propia - Construida con IA - 2026",
+   "Own tool - Built with AI - 2026"
+  ],
+  "Compilador de prompts para Figma Agent.": [
+   "Compilador de prompts para Figma Agent<span class=\"ab-dot\">.</span>",
+   "Prompt compiler for Figma Agent<span class=\"ab-dot\">.</span>"
+  ],
+  "Un skill propio que convierte lo que quiero hacer en Figma, dicho con mis palabras, en un prompt preciso y listo para pegar en la IA de Figma.": [
+   "Un skill propio que convierte lo que quiero hacer en Figma, dicho con mis palabras, en un prompt preciso y listo para pegar en la IA de Figma.",
+   "My own skill that turns what I want to do in Figma, said in my own words, into a precise prompt ready to paste into Figma's AI."
+  ],
+  "Lo que pido": [
+   "Lo que pido",
+   "What I ask"
+  ],
+  "\"Crea una variante deshabilitada del botón principal.\"": [
+   "\"Crea una variante deshabilitada del botón principal.\"",
+   "\"Create a disabled variant of the primary button.\""
+  ],
+  "prompt compilado - ejemplo": [
+   "prompt compilado - ejemplo",
+   "compiled prompt - example"
+  ],
+  "# tarea: variante de componente": [
+   "# tarea: variante de componente",
+   "# task: component variant"
+  ],
+  "Componente:": [
+   "Componente:",
+   "Component:"
+  ],
+  "botón principal": [
+   "botón principal",
+   "primary button"
+  ],
+  "Variante nueva:": [
+   "Variante nueva:",
+   "New variant:"
+  ],
+  "estado deshabilitado": [
+   "estado deshabilitado",
+   "disabled state"
+  ],
+  "- usa las variables de color existentes": [
+   "- usa las variables de color existentes",
+   "- use the existing color variables"
+  ],
+  "- mantén auto layout y nombres de capas": [
+   "- mantén auto layout y nombres de capas",
+   "- keep auto layout and layer names"
+  ],
+  "- revisa el contraste del texto": [
+   "- revisa el contraste del texto",
+   "- check text contrast"
+  ],
+  "Detectar el problema, definir la herramienta y construirla": [
+   "Detectar el problema, definir la herramienta y construirla",
+   "Spot the problem, define the tool and build it"
+  ],
+  "Claude, skills de Claude, Figma Agent": [
+   "Claude, skills de Claude, Figma Agent",
+   "Claude, Claude skills, Figma Agent"
+  ],
+  "Usuaria": [
+   "Usuaria",
+   "User"
+  ],
+  "Yo, en mi día a día con Figma": [
+   "Yo, en mi día a día con Figma",
+   "Me, in my day-to-day Figma work"
+  ],
+  "En uso": [
+   "En uso",
+   "In use"
+  ],
+  "Uso Figma Agent a diario y el resultado depende de cómo esté escrito el prompt. Quería dejar de escribirlos a mano cada vez.": [
+   "Uso Figma Agent a diario y el resultado depende de cómo esté escrito el prompt. Quería dejar de escribirlos a mano cada vez.",
+   "I use Figma Agent daily and the result depends on how the prompt is written. I wanted to stop writing them by hand every time."
+  ],
+  "Un skill que traduce la petición a un prompt estructurado, con plantillas por tipo de tarea y el contexto del design system.": [
+   "Un skill que traduce la petición a un prompt estructurado, con plantillas por tipo de tarea y el contexto del design system.",
+   "A skill that translates the request into a structured prompt, with templates per task type and the design system context."
+  ],
+  "01 El problema": [
+   "<span>01</span> El problema",
+   "<span>01</span> The problem"
+  ],
+  "02 Qué cubre": [
+   "<span>02</span> Qué cubre",
+   "<span>02</span> What it covers"
+  ],
+  "03 Cómo lo construí": [
+   "<span>03</span> Cómo lo construí",
+   "<span>03</span> How I built it"
+  ],
+  "04 Siguientes pasos": [
+   "<span>04</span> Siguientes pasos",
+   "<span>04</span> Next steps"
+  ],
+  "01 - El problema": [
+   "01 - El problema",
+   "01 - The problem"
+  ],
+  "02 - Qué cubre": [
+   "02 - Qué cubre",
+   "02 - What it covers"
+  ],
+  "03 - Cómo lo construí": [
+   "03 - Cómo lo construí",
+   "03 - How I built it"
+  ],
+  "04 - Siguientes pasos": [
+   "04 - Siguientes pasos",
+   "04 - Next steps"
+  ],
+  "Un prompt vago, un resultado vago": [
+   "Un prompt vago, un resultado vago",
+   "A vague prompt, a vague result"
+  ],
+  "Figma Agent forma parte de mi trabajo diario. Lo que devuelve depende mucho de cómo se le pida: qué componente, qué variables usar y qué no tocar.": [
+   "Figma Agent forma parte de mi trabajo diario. Lo que devuelve depende mucho de cómo se le pida: qué componente, qué variables usar y qué no tocar.",
+   "Figma Agent is part of my daily work. What it returns depends a lot on how you ask: which component, which variables to use and what not to touch."
+  ],
+  "Escribir esas instrucciones a mano cada vez era lento y poco constante. Lo vi como un problema de producto pequeño, con una usuaria muy clara: yo.": [
+   "Escribir esas instrucciones a mano cada vez era lento y poco constante. Lo vi como un problema de producto pequeño, con una usuaria muy clara: yo.",
+   "Writing those instructions by hand every time was slow and inconsistent. I saw it as a small product problem with a very clear user: me."
+  ],
+  "Las tareas que más repito": [
+   "Las tareas que más repito",
+   "The tasks I repeat most"
+  ],
+  "Componentes y variantes: crearlos o editarlos sin romper lo que ya existe.": [
+   "<strong>Componentes y variantes</strong>: crearlos o editarlos sin romper lo que ya existe.",
+   "<strong>Components and variants</strong>: create or edit them without breaking what's there."
+  ],
+  "Variables y tokens: aplicarlos en lugar de valores sueltos.": [
+   "<strong>Variables y tokens</strong>: aplicarlos en lugar de valores sueltos.",
+   "<strong>Variables and tokens</strong>: apply them instead of loose values."
+  ],
+  "Pantallas: generarlas o adaptarlas sobre el design system.": [
+   "<strong>Pantallas</strong>: generarlas o adaptarlas sobre el design system.",
+   "<strong>Screens</strong>: generate or adapt them on the design system."
+  ],
+  "Capas: reorganizarlas y renombrarlas con un criterio común.": [
+   "<strong>Capas</strong>: reorganizarlas y renombrarlas con un criterio común.",
+   "<strong>Layers</strong>: reorganise and rename them with a shared convention."
+  ],
+  "Documentación de componentes.": [
+   "<strong>Documentación</strong> de componentes.",
+   "<strong>Documentation</strong> of components."
+  ],
+  "Depuración: cuando un prompt no da lo esperado, revisarlo y corregirlo.": [
+   "<strong>Depuración</strong>: cuando un prompt no da lo esperado, revisarlo y corregirlo.",
+   "<strong>Debugging</strong>: when a prompt doesn't deliver, review and fix it."
+  ],
+  "Yo defino, la IA compila": [
+   "Yo defino, la IA compila",
+   "I define, AI compiles"
+  ],
+  "Qué tareas cubre, cómo se estructura cada prompt y qué contexto del design system necesita para funcionar bien.": [
+   "Qué tareas cubre, cómo se estructura cada prompt y qué contexto del design system necesita para funcionar bien.",
+   "Which tasks it covers, how each prompt is structured and what design system context it needs to work well."
+  ],
+  "Redactar y ordenar las plantillas, y convertir cada petición en el prompt final en segundos.": [
+   "Redactar y ordenar las plantillas, y convertir cada petición en el prompt final en segundos.",
+   "Drafting and organising the templates, and turning each request into the final prompt in seconds."
+  ],
+  "Sigue la misma idea que mi skill anterior para pasar diseños de Figma a WordPress: automatizar lo repetitivo para dedicar el tiempo a decidir.": [
+   "Sigue la misma idea que mi skill anterior para pasar diseños de Figma a WordPress: automatizar lo repetitivo para dedicar el tiempo a decidir.",
+   "It follows the same idea as my earlier skill for turning Figma designs into WordPress: automate the repetitive to spend the time deciding."
+  ],
+  "Darle más contexto": [
+   "Darle más contexto",
+   "Giving it more context"
+  ],
+  "El siguiente paso es completar el bloque de contexto del design system: colecciones de variables, convenciones de nombres y componentes base. Cuanto más contexto tiene, mejor prompt devuelve.": [
+   "El siguiente paso es completar el bloque de contexto del design system: colecciones de variables, convenciones de nombres y componentes base. Cuanto más contexto tiene, mejor prompt devuelve.",
+   "The next step is completing the design system context block: variable collections, naming conventions and base components. The more context it has, the better the prompt it returns."
+  ],
+  "Web para un entrenador de deportes de combate →": [
+   "Web para un entrenador de deportes de combate <span aria-hidden=\"true\">→</span>",
+   "Website for a combat sports coach <span aria-hidden=\"true\">→</span>"
+  ],
+  "Compilador de prompts para Figma Agent": [
+   "Compilador de prompts para Figma Agent",
+   "Prompt compiler for Figma Agent"
+  ],
+  "Un skill que convierte lo que quiero hacer en Figma en un prompt preciso para su IA.": [
+   "Un skill que convierte lo que quiero hacer en Figma en un prompt preciso para su IA.",
+   "A skill that turns what I want to do in Figma into a precise prompt for its AI."
+  ],
+  "# petición": [
+   "# petición",
+   "# request"
+  ],
+  "\"botón principal, deshabilitado\"": [
+   "\"botón principal, deshabilitado\"",
+   "\"primary button, disabled\""
+  ],
+  "# prompt compilado": [
+   "# prompt compilado",
+   "# compiled prompt"
+  ],
+  "tarea: variante de componente": [
+   "tarea: variante de componente",
+   "task: component variant"
+  ],
+  "- usa variables existentes": [
+   "- usa variables existentes",
+   "- use existing variables"
+  ],
+  "- mantén auto layout": [
+   "- mantén auto layout",
+   "- keep auto layout"
+  ],
+  "skills / figma-agent-prompts": [
+   "skills / figma-agent-prompts",
+   "skills / figma-agent-prompts"
+  ],
+  "# skill propio - Figma Agent": [
+   "# skill propio - Figma Agent",
+   "# my own skill - Figma Agent"
+  ],
+  "lo que quiero, con mis palabras": [
+   "lo que quiero, con mis palabras",
+   "what I want, in my words"
+  ],
+  "prompt listo para pegar": [
+   "prompt listo para pegar",
+   "ready-to-paste prompt"
+  ],
+  "- 1. detecta el tipo de tarea": [
+   "- 1. detecta el tipo de tarea",
+   "- 1. detects the task type"
+  ],
+  "- 2. aplica su plantilla": [
+   "- 2. aplica su plantilla",
+   "- 2. applies its template"
+  ],
+  "- 3. añade el contexto del design system": [
+   "- 3. añade el contexto del design system",
+   "- 3. adds the design system context"
+  ],
+  "# qué se pide: lo decido yo": [
+   "# qué se pide: lo decido yo",
+   "# what to ask: my call"
+  ],
+  "# cómo se pide: lo compila la IA ▋": [
+   "# cómo se pide: lo compila la IA <span class=\"ab-blink\">▋</span>",
+   "# how to ask it: AI compiles it <span class=\"ab-blink\">▋</span>"
+  ],
+  "Mi compilador de prompts para Figma Agent →": [
+   "Mi compilador de prompts para Figma Agent →",
+   "My prompt compiler for Figma Agent →"
+  ],
+  "Empecé en el desarrollo web y hoy construyo producto en un SaaS B2B, del problema a producción. Me gusta encontrar dónde se atasca un producto o un equipo y construir la forma de quitar esa fricción, ya sea un flujo nuevo, una herramienta o un agente. Quiero seguir creciendo hacia la definición de producto y la construcción con IA.": [
+   "Empecé en el desarrollo web y hoy construyo producto en un SaaS B2B, del problema a producción. Me gusta encontrar dónde se atasca un producto o un equipo y construir la forma de quitar esa fricción, ya sea un flujo nuevo, una herramienta o un agente. Quiero seguir creciendo hacia la definición de producto y la construcción con IA.",
+   "I started in web development and today I build product in a B2B SaaS, from problem to production. I like finding where a product or a team gets stuck and building the way to remove that friction, whether it's a new flow, a tool or an agent. I want to keep growing towards product definition and building with AI."
+  ],
+  "Skills propios: un compilador de prompts para Figma Agent y otro que convierte diseños de Figma en temas de WordPress.": [
+   "<strong>Skills propios</strong>: un compilador de prompts para Figma Agent y otro que convierte diseños de Figma en temas de WordPress.",
+   "<strong>My own skills</strong>: a prompt compiler for Figma Agent and another that turns Figma designs into WordPress themes."
+  ],
+  "Webs y herramientas construidas con IA: este portfolio, en Astro con Claude Code, y Pixel, su asistente.": [
+   "<strong>Webs y herramientas construidas con IA</strong>: este portfolio, en Astro con Claude Code, y Pixel, su asistente.",
+   "<strong>Websites and tools built with AI</strong>: this portfolio, in Astro with Claude Code, and Pixel, its assistant."
+  ],
+  "También la uso para revisar entregas con agentes, hacer estudios de UX simulados como primer contraste antes de los usuarios reales, automatizar procesos en dashboards y crear herramientas internas para el equipo.": [
+   "<span class=\"ab-ia__also-l\">También la uso para</span> revisar entregas con agentes, hacer estudios de UX simulados como primer contraste antes de los usuarios reales, automatizar procesos en dashboards y crear herramientas internas para el equipo.",
+   "<span class=\"ab-ia__also-l\">I also use it to</span> review handoffs with agents, run simulated UX studies as a first check before real users, automate processes into dashboards and build internal tools for the team."
+  ],
+  "Construyo skills, webs y herramientas con IA, como mi compilador de prompts para Figma Agent o este portfolio. También la uso para revisar entregas, automatizar procesos y hacer un primer contraste de UX antes de probar con usuarios.": [
+   "Construyo skills, webs y herramientas con IA, como mi compilador de prompts para Figma Agent o este portfolio. También la uso para revisar entregas, automatizar procesos y hacer un primer contraste de UX antes de probar con usuarios.",
+   "I build skills, websites and tools with AI, like my prompt compiler for Figma Agent or this portfolio. I also use it to review handoffs, automate processes and run a first UX check before testing with users."
+  ],
+  "Construye con ella: skills propios como su compilador de prompts para Figma Agent, y webs como esta, hecha en Astro con Claude Code. También la usa para revisar entregas y automatizar procesos. Las decisiones de producto las toma ella.": [
+   "Construye con ella: skills propios como su compilador de prompts para Figma Agent, y webs como esta, hecha en Astro con Claude Code. También la usa para revisar entregas y automatizar procesos. Las decisiones de producto las toma ella.",
+   "She builds with it: her own skills, like her prompt compiler for Figma Agent, and websites like this one, made in Astro with Claude Code. She also uses it to review handoffs and automate processes. She makes the product decisions."
+  ],
+  "Lo pulí con el uso, probándolo con prompts reales. Ahora la mayoría de las tareas salen bien a la primera.": [
+   "Lo pulí con el uso, probándolo con prompts reales. Ahora la mayoría de las tareas salen bien a la primera.",
+   "I refined it through use, testing it with real prompts. Now most tasks come out right the first time."
+  ],
+  "Después de usarlo con varios prompts, ajusté las plantillas hasta que dejó de necesitar correcciones en la mayoría de tareas.": [
+   "Después de usarlo con varios prompts, ajusté las plantillas hasta que dejó de necesitar correcciones en la mayoría de tareas.",
+   "After using it with several prompts, I tuned the templates until most tasks stopped needing corrections."
+  ],
+  "Soy Andrea. Encuentro dónde se atasca un producto o un equipo y construyo la forma de quitar esa fricción, del problema a producción.": [
+   "Soy Andrea. <strong>Encuentro dónde se atasca un producto o un equipo</strong> y construyo la forma de quitar esa fricción, del problema a producción.",
+   "I'm Andrea. <strong>I find where a product or a team gets stuck</strong> and build the way to remove that friction, from problem to production."
+  ],
+  "Del problema al producto, en seis pasos.": [
+   "Del problema al producto, en seis pasos.",
+   "From problem to product, in six steps."
+  ],
+  "Objetivos y criterios de éxito antes de las pantallas.": [
+   "Objetivos y criterios de éxito antes de las pantallas.",
+   "Goals and success criteria before screens."
+  ],
+  "La solución en flujos, contrastada también con agentes.": [
+   "La solución en flujos, contrastada también con agentes.",
+   "The solution in flows, also cross-checked with agents."
+  ],
+  "Un prototipo funcional, en Figma o en HTML con IA.": [
+   "Un prototipo funcional, en Figma o en HTML con IA.",
+   "A working prototype, in Figma or in HTML with AI."
+  ],
+  "Specs, tokens y componentes, y seguimiento en Agile.": [
+   "Specs, tokens y componentes, y seguimiento en Agile.",
+   "Specs, tokens and components, followed through in Agile."
+  ],
+  "¿Resuelve el problema? Si no, iteramos.": [
+   "¿Resuelve el problema? Si no, iteramos.",
+   "Does it solve the problem? If not, we iterate."
+  ],
+  "Planteé la solución y el flujo de compra completo, sobre un design system que creé desde cero como base para construir rápido.": [
+   "Planteé la solución y el flujo de compra completo, sobre un design system que creé desde cero como base para construir rápido.",
+   "I shaped the solution and the full purchase flow, on a design system I created from scratch as the base for building fast."
+  ],
+  "Interfaz sobre un design system con tokens y variables, y maquetación en HTML, CSS y Handlebars. No escribo JavaScript a mano: lo dirijo, lo reviso y lo despliego con IA.": [
+   "Interfaz sobre un design system con tokens y variables, y maquetación en HTML, CSS y Handlebars. No escribo JavaScript a mano: lo dirijo, lo reviso y lo despliego con IA.",
+   "Interfaces on a design system with tokens and variables, plus front-end builds in HTML, CSS and Handlebars. I don't write JavaScript by hand: I direct it, review it and ship it with AI."
+  ],
+  "En construcción ahora": [
+   "En construcción ahora",
+   "Building right now"
+  ],
+  "Una web para un box de entrenamiento.": [
+   "Una web para un box de entrenamiento.",
+   "A website for a training box gym."
+  ],
+  "Nuevas herramientas para optimizar mi flujo de trabajo con Claude.": [
+   "Nuevas herramientas para optimizar mi flujo de trabajo con Claude.",
+   "New tools to optimise my workflow with Claude."
+  ],
+  "El problema real y para quién.": [
+   "El problema real y para quién.",
+   "The real problem and who for."
   ]
  },
  "a": {
-  "Andrea Blanco, inicio": "Andrea Blanco, home",
-  "Navegación principal": "Main navigation",
-  "Abrir menú": "Open menu",
+  "Andrea Blanco, inicio": [
+   "A",
+   "n",
+   "d",
+   "r",
+   "e",
+   "a",
+   " ",
+   "B",
+   "l",
+   "a",
+   "n",
+   "c",
+   "o",
+   ",",
+   " ",
+   "h",
+   "o",
+   "m",
+   "e"
+  ],
+  "Navegación principal": [
+   "M",
+   "a",
+   "i",
+   "n",
+   " ",
+   "n",
+   "a",
+   "v",
+   "i",
+   "g",
+   "a",
+   "t",
+   "i",
+   "o",
+   "n"
+  ],
+  "Abrir menú": [
+   "O",
+   "p",
+   "e",
+   "n",
+   " ",
+   "m",
+   "e",
+   "n",
+   "u"
+  ],
   "Cerrar menú": "Close menu",
   "Foto de Andrea (en la web real)": "Photo of Andrea (on the real site)",
-  "Lo que hago en Clorian": "What I do at Clorian",
-  "Pilares del proyecto": "Project pillars",
-  "Componente": "Component",
+  "Lo que hago en Clorian": [
+   "W",
+   "h",
+   "a",
+   "t",
+   " ",
+   "I",
+   " ",
+   "d",
+   "o",
+   " ",
+   "a",
+   "t",
+   " ",
+   "C",
+   "l",
+   "o",
+   "r",
+   "i",
+   "a",
+   "n"
+  ],
+  "Pilares del proyecto": [
+   "P",
+   "r",
+   "o",
+   "j",
+   "e",
+   "c",
+   "t",
+   " ",
+   "p",
+   "i",
+   "l",
+   "l",
+   "a",
+   "r",
+   "s"
+  ],
+  "Componente": [
+   "C",
+   "o",
+   "m",
+   "p",
+   "o",
+   "n",
+   "e",
+   "n",
+   "t"
+  ],
   "Antes: selector de hora": "Before: time picker",
   "Ahora: selector de hora": "Now: time picker",
   "Antes: calendario en móvil": "Before: mobile calendar",
   "Ahora: calendario en móvil": "Now: mobile calendar",
   "Antes: datos personales y temporizador": "Before: personal details and timer",
   "Ahora: datos personales y temporizador": "Now: personal details and timer",
-  "Más proyectos": "More projects",
-  "Pixel, la mascota del portfolio": "Pixel, the portfolio mascot",
-  "Proyecto anterior": "Previous project",
-  "Proyecto siguiente": "Next project",
+  "Más proyectos": [
+   "M",
+   "o",
+   "r",
+   "e",
+   " ",
+   "p",
+   "r",
+   "o",
+   "j",
+   "e",
+   "c",
+   "t",
+   "s"
+  ],
+  "Pixel, la mascota del portfolio": [
+   "P",
+   "i",
+   "x",
+   "e",
+   "l",
+   ",",
+   " ",
+   "t",
+   "h",
+   "e",
+   " ",
+   "p",
+   "o",
+   "r",
+   "t",
+   "f",
+   "o",
+   "l",
+   "i",
+   "o",
+   " ",
+   "m",
+   "a",
+   "s",
+   "c",
+   "o",
+   "t"
+  ],
+  "Proyecto anterior": [
+   "P",
+   "r",
+   "e",
+   "v",
+   "i",
+   "o",
+   "u",
+   "s",
+   " ",
+   "p",
+   "r",
+   "o",
+   "j",
+   "e",
+   "c",
+   "t"
+  ],
+  "Proyecto siguiente": [
+   "N",
+   "e",
+   "x",
+   "t",
+   " ",
+   "p",
+   "r",
+   "o",
+   "j",
+   "e",
+   "c",
+   "t"
+  ],
   "Flujo del skill figma-to-wordpress": "How the figma-to-wordpress skill works",
-  "Capítulos": "Chapters",
-  "Página completa en escritorio": "Full page on desktop",
-  "Página completa en móvil": "Full page on mobile",
-  "Esquema de la primera versión": "Wireframe of the first version",
-  "Pixel y algunos de sus estados": "Pixel and some of its states",
-  "Pixel, asistente del portfolio": "Pixel, the portfolio assistant",
-  "Preguntas sobre Andrea": "Questions about Andrea",
-  "Cerrar burbuja": "Close bubble",
-  "Ocultar a Pixel": "Hide Pixel",
+  "Capítulos": [
+   "C",
+   "h",
+   "a",
+   "p",
+   "t",
+   "e",
+   "r",
+   "s"
+  ],
+  "Página completa en escritorio": [
+   "F",
+   "u",
+   "l",
+   "l",
+   " ",
+   "p",
+   "a",
+   "g",
+   "e",
+   " ",
+   "o",
+   "n",
+   " ",
+   "d",
+   "e",
+   "s",
+   "k",
+   "t",
+   "o",
+   "p"
+  ],
+  "Página completa en móvil": [
+   "F",
+   "u",
+   "l",
+   "l",
+   " ",
+   "p",
+   "a",
+   "g",
+   "e",
+   " ",
+   "o",
+   "n",
+   " ",
+   "m",
+   "o",
+   "b",
+   "i",
+   "l",
+   "e"
+  ],
+  "Esquema de la primera versión": [
+   "W",
+   "i",
+   "r",
+   "e",
+   "f",
+   "r",
+   "a",
+   "m",
+   "e",
+   " ",
+   "o",
+   "f",
+   " ",
+   "t",
+   "h",
+   "e",
+   " ",
+   "f",
+   "i",
+   "r",
+   "s",
+   "t",
+   " ",
+   "v",
+   "e",
+   "r",
+   "s",
+   "i",
+   "o",
+   "n"
+  ],
+  "Pixel y algunos de sus estados": [
+   "P",
+   "i",
+   "x",
+   "e",
+   "l",
+   " ",
+   "a",
+   "n",
+   "d",
+   " ",
+   "s",
+   "o",
+   "m",
+   "e",
+   " ",
+   "o",
+   "f",
+   " ",
+   "i",
+   "t",
+   "s",
+   " ",
+   "s",
+   "t",
+   "a",
+   "t",
+   "e",
+   "s"
+  ],
+  "Pixel, asistente del portfolio": [
+   "P",
+   "i",
+   "x",
+   "e",
+   "l",
+   ",",
+   " ",
+   "t",
+   "h",
+   "e",
+   " ",
+   "p",
+   "o",
+   "r",
+   "t",
+   "f",
+   "o",
+   "l",
+   "i",
+   "o",
+   " ",
+   "a",
+   "s",
+   "s",
+   "i",
+   "s",
+   "t",
+   "a",
+   "n",
+   "t"
+  ],
+  "Preguntas sobre Andrea": [
+   "Q",
+   "u",
+   "e",
+   "s",
+   "t",
+   "i",
+   "o",
+   "n",
+   "s",
+   " ",
+   "a",
+   "b",
+   "o",
+   "u",
+   "t",
+   " ",
+   "A",
+   "n",
+   "d",
+   "r",
+   "e",
+   "a"
+  ],
+  "Cerrar burbuja": [
+   "C",
+   "l",
+   "o",
+   "s",
+   "e",
+   " ",
+   "b",
+   "u",
+   "b",
+   "b",
+   "l",
+   "e"
+  ],
+  "Ocultar a Pixel": [
+   "H",
+   "i",
+   "d",
+   "e",
+   " ",
+   "P",
+   "i",
+   "x",
+   "e",
+   "l"
+  ],
   "Página completa de Alfredo Combat Performance en escritorio": "Full page of the coach's website on desktop",
-  "Idioma": "Language",
-  "Compra de entradas de Capricho de Gaudí en móvil": "Capricho de Gaudí ticket purchase on mobile",
-  "Compra de entradas del Museo Reina Sofía en móvil": "Museo Reina Sofía ticket purchase on mobile",
-  "Compra de entradas de la Fundació Sorigué en móvil": "Fundació Sorigué ticket purchase on mobile",
-  "Web del Club Natació Terrassa en un portátil": "Club Natació Terrassa website on a laptop",
-  "Web de eur2j en un móvil": "eur2j website on a phone"
+  "Idioma": [
+   "L",
+   "a",
+   "n",
+   "g",
+   "u",
+   "a",
+   "g",
+   "e"
+  ],
+  "Compra de entradas de Capricho de Gaudí en móvil": [
+   "C",
+   "a",
+   "p",
+   "r",
+   "i",
+   "c",
+   "h",
+   "o",
+   " ",
+   "d",
+   "e",
+   " ",
+   "G",
+   "a",
+   "u",
+   "d",
+   "í",
+   " ",
+   "t",
+   "i",
+   "c",
+   "k",
+   "e",
+   "t",
+   " ",
+   "p",
+   "u",
+   "r",
+   "c",
+   "h",
+   "a",
+   "s",
+   "e",
+   " ",
+   "o",
+   "n",
+   " ",
+   "m",
+   "o",
+   "b",
+   "i",
+   "l",
+   "e"
+  ],
+  "Compra de entradas del Museo Reina Sofía en móvil": [
+   "M",
+   "u",
+   "s",
+   "e",
+   "o",
+   " ",
+   "R",
+   "e",
+   "i",
+   "n",
+   "a",
+   " ",
+   "S",
+   "o",
+   "f",
+   "í",
+   "a",
+   " ",
+   "t",
+   "i",
+   "c",
+   "k",
+   "e",
+   "t",
+   " ",
+   "p",
+   "u",
+   "r",
+   "c",
+   "h",
+   "a",
+   "s",
+   "e",
+   " ",
+   "o",
+   "n",
+   " ",
+   "m",
+   "o",
+   "b",
+   "i",
+   "l",
+   "e"
+  ],
+  "Compra de entradas de la Fundació Sorigué en móvil": [
+   "F",
+   "u",
+   "n",
+   "d",
+   "a",
+   "c",
+   "i",
+   "ó",
+   " ",
+   "S",
+   "o",
+   "r",
+   "i",
+   "g",
+   "u",
+   "é",
+   " ",
+   "t",
+   "i",
+   "c",
+   "k",
+   "e",
+   "t",
+   " ",
+   "p",
+   "u",
+   "r",
+   "c",
+   "h",
+   "a",
+   "s",
+   "e",
+   " ",
+   "o",
+   "n",
+   " ",
+   "m",
+   "o",
+   "b",
+   "i",
+   "l",
+   "e"
+  ],
+  "Web del Club Natació Terrassa en un portátil": [
+   "C",
+   "l",
+   "u",
+   "b",
+   " ",
+   "N",
+   "a",
+   "t",
+   "a",
+   "c",
+   "i",
+   "ó",
+   " ",
+   "T",
+   "e",
+   "r",
+   "r",
+   "a",
+   "s",
+   "s",
+   "a",
+   " ",
+   "w",
+   "e",
+   "b",
+   "s",
+   "i",
+   "t",
+   "e",
+   " ",
+   "o",
+   "n",
+   " ",
+   "a",
+   " ",
+   "l",
+   "a",
+   "p",
+   "t",
+   "o",
+   "p"
+  ],
+  "Web de eur2j en un móvil": [
+   "e",
+   "u",
+   "r",
+   "2",
+   "j",
+   " ",
+   "w",
+   "e",
+   "b",
+   "s",
+   "i",
+   "t",
+   "e",
+   " ",
+   "o",
+   "n",
+   " ",
+   "a",
+   " ",
+   "p",
+   "h",
+   "o",
+   "n",
+   "e"
+  ],
+  "Ejemplo de prompt compilado": [
+   "E",
+   "x",
+   "a",
+   "m",
+   "p",
+   "l",
+   "e",
+   " ",
+   "o",
+   "f",
+   " ",
+   "a",
+   " ",
+   "c",
+   "o",
+   "m",
+   "p",
+   "i",
+   "l",
+   "e",
+   "d",
+   " ",
+   "p",
+   "r",
+   "o",
+   "m",
+   "p",
+   "t"
+  ],
+  "Flujo de mi skill para Figma Agent": [
+   "F",
+   "l",
+   "o",
+   "w",
+   " ",
+   "o",
+   "f",
+   " ",
+   "m",
+   "y",
+   " ",
+   "F",
+   "i",
+   "g",
+   "m",
+   "a",
+   " ",
+   "A",
+   "g",
+   "e",
+   "n",
+   "t",
+   " ",
+   "s",
+   "k",
+   "i",
+   "l",
+   "l"
+  ]
  },
  "keep": [
   "Capricho de Gaudí",
