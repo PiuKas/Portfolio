@@ -77,7 +77,7 @@
     dev:'Participa desde antes de que el producto exista. Trabaja de la mano de Producto, busca lo que no se ha valorado y puede sumar, se apoya en Frontend para las dudas técnicas, acompaña la implementación con metodología Agile y revisa que el resultado cumple los objetivos.',
     ai:'Construye con ella: skills propios como su compilador de prompts para Figma Agent, y webs como esta, hecha en Astro con Claude Code. También la usa para revisar entregas y automatizar procesos. Las decisiones de producto las toma ella.',
     a11y:'Para Andrea es el pilar del diseño: la tiene en cuenta desde el primer boceto, no al final. Auditó el sistema de color componente a componente con criterios WCAG y rediseñó los formularios con etiquetas claras y foco visible. Un diseño que no puede usar todo el mundo está sin terminar.',
-    next:'Escríbele a <a href="/#contacto">andreapwyt@gmail.com</a> o <a href="/cv/Andrea-Blanco-Lopez-CV-ES.pdf" download>descarga su CV</a>. También la encuentras en LinkedIn, en el pie de página.'
+    next:'Escríbele a <a href="/#contacto">andreapwyt@gmail.com</a> o <a href="/cv/CV_Andrea_Blanco_Lopez_ES.pdf" download>descarga su CV</a>. También la encuentras en LinkedIn, en el pie de página.'
   };
   function pulse(c,ms){pal.classList.remove(c);void pal.offsetWidth;pal.classList.add(c);setTimeout(function(){pal.classList.remove(c)},ms)}
   function showCard(){pal.classList.add('has-card');btn.setAttribute('aria-expanded','true')}

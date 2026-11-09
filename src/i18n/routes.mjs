@@ -4,8 +4,8 @@
 export const SITE = 'https://andreablancolopez.com';
 
 export const CV = {
-  es: '/cv/Andrea-Blanco-Lopez-CV-ES.pdf',
-  en: '/cv/Andrea-Blanco-Lopez-CV-EN.pdf',
+  es: '/cv/CV_Andrea_Blanco_Lopez_ES.pdf',
+  en: '/cv/CV_Andrea_Blanco_Lopez_EN.pdf',
 };
 
 /* Página en castellano → página en inglés, con título y descripción de la versión inglesa. */

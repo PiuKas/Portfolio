@@ -10,12 +10,23 @@
 # CV de la web antigua (WordPress). El enlace puede estar en LinkedIn o en candidaturas ya enviadas.
 [[redirects]]
   from = "/wp-content/uploads/CV_Andrea_Blanco_Lopez_ES.pdf"
-  to = "/cv/Andrea-Blanco-Lopez-CV-ES.pdf"
+  to = "/cv/CV_Andrea_Blanco_Lopez_ES.pdf"
   status = 301
 
 [[redirects]]
   from = "/wp-content/uploads/CV_Andrea_Blanco_Lopez_EN.pdf"
-  to = "/cv/Andrea-Blanco-Lopez-CV-EN.pdf"
+  to = "/cv/CV_Andrea_Blanco_Lopez_EN.pdf"
+  status = 301
+
+# CV con el nombre anterior de esta web
+[[redirects]]
+  from = "/cv/Andrea-Blanco-Lopez-CV-ES.pdf"
+  to = "/cv/CV_Andrea_Blanco_Lopez_ES.pdf"
+  status = 301
+
+[[redirects]]
+  from = "/cv/Andrea-Blanco-Lopez-CV-EN.pdf"
+  to = "/cv/CV_Andrea_Blanco_Lopez_EN.pdf"
   status = 301
 
 # Cualquier otra ruta de WordPress lleva a la home en vez de a un 404
